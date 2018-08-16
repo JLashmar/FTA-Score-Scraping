@@ -40,6 +40,7 @@
     <Compile Include="polo\apps.py" />
     <Compile Include="polo\migrations\__init__.py" />
     <Compile Include="polo\models.py" />
+    <Compile Include="polo\scrape.py" />
     <Compile Include="polo\tests.py" />
     <Compile Include="polo\views.py" />
     <Compile Include="polo\__init__.py" />
@@ -52,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="polo\templates\index.html" />
+    <Content Include="polo\templates\sample.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
   </ItemGroup>
