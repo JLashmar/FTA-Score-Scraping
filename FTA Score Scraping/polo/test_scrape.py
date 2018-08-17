@@ -13,7 +13,7 @@ csv_writer.writerow(['Stage', 'Competition', 'Match Date', 'Team A', 'Team B', '
 
 comp_file = open('competition_scrape.csv', 'w', newline='')
 comp_writer = csv.writer(comp_file)
-comp_writer.writerow(['Place', 'Club', 'Level', 'Tournament Type', 'Winner Points', 'Finalist Points', 'Semis Points', 'Rest of Players Points', ])
+comp_writer.writerow(['id', 'Place', 'Club', 'Level', 'Tournament Type', 'Winner Points', 'Finalist Points', 'Semis Points', 'Rest of Players Points', ])
 
 comp_name = soup.find('a', class_='eg-zone-element-1')
 competition = comp_name.text
@@ -73,49 +73,53 @@ for table in bs.find_all('div', 'sp-template-event-list'):
 
 # competition info
 try:
+    id = 0
     for data in bs.find_all('ul', 'acf'):
         list_of_lists = []
         for listData in data.find_all('li'):
             stuff = listData.text.split(':')
             list_of_lists.append(stuff)
-            # print(stuff)
+
         matchers = ['Place', 'Club', 'Level', 'Tournament Type', 'Winner Points', 'Finalist Points', 'Semis Points', 'Rest of Players Points', ]
         matching = [s for s in list_of_lists if any(xs in s for xs in matchers)]
         matched = matching
 
         # Location
         competition_data = []
+        id = id + 1
+        competition_data.append(id)
+        print(id)
         try:
-            #place = matched[0][0]
+            # place = matched[0][0]
             location = matched[0][1]
-            location_data = [location]
+            location_data = location
             competition_data.append(location_data)
             # comp_writer.writerow(location_data)
         except Exception as e:
             pass
         # Club
         try:
-            #club = matched[1][0]
+            # club = matched[1][0]
             club_name = matched[1][1]
-            club_data = [club_name]
+            club_data = club_name
             competition_data.append(club_data)
             # comp_writer.writerow(club_data)
         except Exception as e:
             pass
         # Level
         try:
-            #level = matched[2][0]
+            # level = matched[2][0]
             handicap = matched[2][1]
-            handicap_data = [handicap]
+            handicap_data = handicap
             competition_data.append(handicap_data)
             # comp_writer.writerow(handicap_data)
         except Exception as e:
             pass
         # Tournament Type
         try:
-            #tournament_type = matched[3][0]
+            # tournament_type = matched[3][0]
             type_name = matched[3][1]
-            type_data = [type_name]
+            type_data = type_name
             competition_data.append(type_data)
             # comp_writer.writerow(type_data)
         except Exception as e:
@@ -123,42 +127,42 @@ try:
         # Ranking Point System
         # Winner Points
         try:
-            #win_ranking = matched[4][0]
+            # win_ranking = matched[4][0]
             win_points = matched[4][1]
-            win_data = [win_points]
+            win_data = win_points
             competition_data.append(win_data)
             # comp_writer.writerow(win_data)
         except Exception as e:
             pass
         # Runner Up Points
         try:
-            #run_ranking = matched[5][0]
+            # run_ranking = matched[5][0]
             run_points = matched[5][1]
-            run_data = [run_points]
+            run_data = run_points
             competition_data.append(run_data)
             # comp_writer.writerow(run_data)
         except Exception as e:
             pass
         # semi points
         try:
-            #semi_ranking = matched[6][0]
+            # semi_ranking = matched[6][0]
             semi_points = matched[6][1]
-            semi_data = [semi_points]
+            semi_data = semi_points
             competition_data.append(semi_data)
             # comp_writer.writerow(semi_data)
         except Exception as e:
             pass
         # appearance points
         try:
-            #appearance_ranking = matched[7][0]
+            # appearance_ranking = matched[7][0]
             appearance_points = matched[7][1]
-            appearance_data = [appearance_points]
+            appearance_data = appearance_points
             competition_data.append(appearance_data)
             # comp_writer.writerow(appearance_data)
         except Exception as e:
             pass
 
-        #print(location_data, club_data, handicap_data, type_data, win_data, run_data, semi_data, appearance_data)
+        # print(location_data, club_data, handicap_data, type_data, win_data, run_data, semi_data, appearance_data)
         comp_writer.writerow(competition_data)
 
 except Exception as e:

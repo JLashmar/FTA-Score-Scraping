@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'import_export',
     'polo',
     # Add your apps here to enable them
     'django.contrib.admin',
@@ -41,6 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+
+IMPORT_EXPORT_USE_TRANSACTIONS = True
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

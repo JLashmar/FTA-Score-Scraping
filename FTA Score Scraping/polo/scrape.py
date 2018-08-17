@@ -14,7 +14,7 @@ csv_writer.writerow(['Competition', 'Match Date', 'Team A', '"Team B', 'Score 1'
 
 comp_file = open('competition_scrape.csv', 'w', newline='')
 comp_writer = csv.writer(comp_file)
-comp_writer.writerow(['Place', 'Club', 'Level', 'Tournament Type', 'Winner Points', 'Finalist Points', 'Semis Points', 'Rest of Players Points', ])
+comp_writer.writerow(['Id', 'Place', 'Club', 'Level', 'Tournament Type', 'Winner Points', 'Finalist Points', 'Semis Points', 'Rest of Players Points', ])
 
 for comp_name in soup.find_all('a', class_='eg-zone-element-1'):
     competition = comp_name.text
@@ -70,10 +70,12 @@ for comp_name in soup.find_all('a', class_='eg-zone-element-1'):
     try:
         for data in bs.find_all('ul', 'acf'):
             list_of_lists = []
+            count = 0
             for listData in data.find_all('li'):
+                count = count + 1
                 stuff = listData.text.split(':')
                 list_of_lists.append(stuff)
-            matchers = ['Place', 'Club', 'Level', 'Tournament Type', 'Winner Points', 'Finalist Points', 'Semis Points', 'Rest of Players Points', ]
+            matchers = ['Count', 'Place', 'Club', 'Level', 'Tournament Type', 'Winner Points', 'Finalist Points', 'Semis Points', 'Rest of Players Points', ]
             matching = [s for s in list_of_lists if any(xs in s for xs in matchers)]
             matched = matching
 
