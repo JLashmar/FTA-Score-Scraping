@@ -71,7 +71,7 @@ for table in bs.find_all('div', 'sp-template-event-list'):
         except Exception as e:
             pass
 
-        # competition info
+# competition info
 try:
     for data in bs.find_all('ul', 'acf'):
         list_of_lists = []
