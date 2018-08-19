@@ -31,6 +31,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="golf\admin.py" />
+    <Compile Include="golf\apps.py" />
+    <Compile Include="golf\migrations\__init__.py" />
+    <Compile Include="golf\models.py" />
+    <Compile Include="golf\scrape.py" />
+    <Compile Include="golf\tests.py" />
+    <Compile Include="golf\views.py" />
+    <Compile Include="golf\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="FTA_Score_Scraping\__init__.py" />
     <Compile Include="FTA_Score_Scraping\settings.py" />
@@ -47,11 +55,19 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FTA_Score_Scraping\" />
+    <Folder Include="golf\" />
+    <Folder Include="golf\migrations\" />
+    <Folder Include="golf\stored_page\" />
+    <Folder Include="golf\templates\" />
     <Folder Include="polo\" />
     <Folder Include="polo\migrations\" />
     <Folder Include="polo\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="golf\espn.html" />
+    <Content Include="golf\scrape_2_table.csv" />
+    <Content Include="golf\table.html" />
+    <Content Include="golf\templates\index.html" />
     <Content Include="polo\templates\index.html" />
     <Content Include="polo\templates\sample.html" />
     <Content Include="requirements.txt" />
