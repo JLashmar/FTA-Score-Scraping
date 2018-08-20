@@ -1,2 +1,2 @@
-tournament_name,start_date,end_date,location,par_total,distance_total,purse_total,champ,id
-Wyndham Championship,August 16  2018, 19 2018,"Sedgefield Country Club - Greensboro, NC",70,"7,127","$6,000,000",Brandt Snedeker
+id,tournament_name,start_date,end_date,location,par_total,distance_total,purse_total,champ
+1,Wyndham Championship,August 16 2018,August 19 2018,"Sedgefield Country Club - Greensboro, NC",70,"7,127","$6,000,000",Brandt Snedeker

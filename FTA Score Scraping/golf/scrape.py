@@ -10,7 +10,7 @@ with open('espn.html') as source:
 comp_file = open('scrape_1_comp.csv', 'w', newline='')
 
 comp_writer = csv.writer(comp_file)
-comp_writer.writerow(['tournament_name', 'start_date', 'end_date', 'location', 'par_total', 'distance_total', 'purse_total', 'champ', 'id'])
+comp_writer.writerow(['id', 'tournament_name', 'start_date', 'end_date', 'location', 'par_total', 'distance_total', 'purse_total', 'champ'])
 
 table_file = open('scrape_2_table.csv', 'w', newline='')
 
@@ -36,10 +36,12 @@ bs = BeautifulSoup(tournament, 'lxml')  # basically soup #uncomment and indent t
 
 # with open('table.html') as tournament:
 #bs = BeautifulSoup(tournament, 'lxml')
-tournament_count = tournament_count + 1
+# tournament_count = tournament_count + 1
 
 for data in bs.find_all('header', 'matchup-header'):
     course_data = []
+    tournament_count = tournament_count + 1
+    course_data.append(tournament_count)
     # name
     for tournament_name in data.find_all('h1'):
         tournament_name = tournament_name.text
@@ -49,12 +51,15 @@ for data in bs.find_all('header', 'matchup-header'):
         date = date.text
         split_date = date.split('-')
         date1 = split_date[0]  # date1 + year == 18 aug 2018
+        date1 = date1.split(' ')
+        month = date1[0]
+        date1 = date1[1]
         date_block = split_date[1]
         date_block = date_block.split(',')
         date2 = date_block[0]  # date2 + year == 28 aug 2018
         year = date_block[1]
-        start_date = date1 + year
-        end_date = date2 + year
+        start_date = month + (' ') + date1 + year
+        end_date = month + date2 + year
         course_data.append(start_date)
         course_data.append(end_date)
     # location

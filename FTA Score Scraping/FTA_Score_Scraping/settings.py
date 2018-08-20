@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'import_export',
+    'golf',
     'polo',
     # Add your apps here to enable them
     'django.contrib.admin',
