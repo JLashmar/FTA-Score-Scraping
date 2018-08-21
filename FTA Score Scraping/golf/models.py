@@ -11,6 +11,8 @@ class PGA_Comp(models.Model):
     purse_total = models.CharField(max_length=200, default=None, blank=True, null=True)
     champ = models.CharField(max_length=200, default=None, blank=True, null=True)
 
+    def __str__(self):
+        return "%s" % (self.tournament_name)
 
 class PGA_Event(models.Model):
     tournament_id = models.ForeignKey(PGA_Comp, on_delete=models.CASCADE)
@@ -24,3 +26,6 @@ class PGA_Event(models.Model):
     round3 = models.CharField(max_length=4, default='none', blank=True, null=True)
     round4 = models.CharField(max_length=4, default='none', blank=True, null=True)
     total_score = models.CharField(max_length=4, default='none', blank=True, null=True)
+
+    def __str__(self):
+        return "%s, %s" % (self.tournament_id, self.name)

@@ -16,7 +16,7 @@ comp_writer.writerow(['id', 'tournament_name', 'start_date', 'end_date', 'locati
 
 table_file = open('scrape_2_table.csv', 'w', newline='')
 table_writer = csv.writer(table_file)
-table_writer.writerow(['tournament_id', 'position', 'name', 'to_par', 'current_round', 'thru', 'round1', 'round2', 'round3', 'round4', 'total_score', 'id'])
+table_writer.writerow(['tournament_id', 'position', 'name', 'to_par', 'current_round', 'thru', 'round1', 'round2', 'round3', 'round4', 'total_score'])
 
 # scrolls through the tournaments and finds the ID, used later on
 tournament_id = []
@@ -61,7 +61,7 @@ for num in tournament_id:
             date_block = date_block.split(',')
             date2 = date_block[0]  # date2 + year == 28 aug 2018
             date2 = re.sub('[JFMASONDabcdefghijklmnopqrstuqwreyz]', '', date2)
-            print(date2)
+            # print(date2)
             year = date_block[1]
             start_date = month + (' ') + date1 + year
             end_date = month + date2 + year
@@ -173,10 +173,24 @@ for num in tournament_id:
         if row_data == [tournament_count]:
             pass
         else:
-            row_data.append(loop_count)
+            # row_data.append(loop_count)
             table_writer.writerow(row_data)
 
-
 table_file.close
+
+with open("scrape_2_table.csv", 'r') as input, open('event_output.csv', 'w', newline='') as output:
+    reader = csv.reader(input, delimiter=',')
+    writer = csv.writer(output, delimiter=',')
+
+    all = []
+    row = next(reader)
+    row.insert(0, 'id')
+    all.append(row)
+    count = 0
+    for row in reader:
+        count += 1
+        row.insert(0, count)
+        all.append(row)
+    writer.writerows(all)
 
 print('Done')
