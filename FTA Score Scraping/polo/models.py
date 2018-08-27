@@ -47,4 +47,4 @@ class Result(models.Model):
     competition = models.ForeignKey(Competition, on_delete=models.CASCADE, default=None, blank=True, null=True)
 
     def __str__(self):
-        return "%s: %s v %s" % (self.stage, self.team_a, self.team_b)
+        return "%s - %s: %s v %s" % (self.competition, self.stage, self.team_a, self.team_b)
