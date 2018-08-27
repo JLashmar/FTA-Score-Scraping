@@ -34,13 +34,17 @@ class Competition(models.Model):
     appearance_points = models.IntegerField(default=None, blank=True, null=True)
 
     def __str__(self):
-        return "%s" % (self.name)
+        return "%s" % (self.location)
 
 
 class Result(models.Model):
-    competition = models.ForeignKey(Competition, on_delete=models.CASCADE, default=None, blank=True, null=True)
+    stage = models.CharField(max_length=200, default=None, blank=True, null=True)
+    match_date = models.DateField(default=None, blank=True, null=True)
     team_a = models.CharField(max_length=200)
-    team_a_score = models.CharField(max_length=200, default=None, blank=True, null=True)
     team_b = models.CharField(max_length=200)
+    team_a_score = models.CharField(max_length=200, default=None, blank=True, null=True)
     team_b_score = models.CharField(max_length=200, default=None, blank=True, null=True)
-    game_date = models.DateTimeField(default=None, blank=True, null=True)
+    competition = models.ForeignKey(Competition, on_delete=models.CASCADE, default=None, blank=True, null=True)
+
+    def __str__(self):
+        return "%s: %s v %s" % (self.stage, self.team_a, self.team_b)

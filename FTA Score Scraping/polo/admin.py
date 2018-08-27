@@ -3,8 +3,6 @@ from django.contrib import admin
 from .models import Competition, Result, MyComp
 # Register your models here.
 
-admin.site.register(Result)
-
 
 @admin.register(MyComp)
 class MyCompetitionAdmin(ImportExportModelAdmin):
@@ -13,4 +11,9 @@ class MyCompetitionAdmin(ImportExportModelAdmin):
 
 @admin.register(Competition)
 class CompetitionAdmin(ImportExportModelAdmin):
+    pass
+
+
+@admin.register(Result)
+class MyCompetitionAdmin(ImportExportModelAdmin):
     pass

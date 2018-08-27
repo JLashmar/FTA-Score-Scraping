@@ -1,5 +1,5 @@
 from import_export import resources
-from .models import PGA_Comp PGA_Event
+from .models import PGA_Comps PGA_Event
 from django.contrib import admin
 from import_export.admin import ImportExportModelAdmin
 

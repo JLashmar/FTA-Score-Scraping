@@ -5,40 +5,44 @@ import csv
 source = requests.get('https://www.pololine.com/tournament/').text
 soup = BeautifulSoup(source, 'lxml')
 
-csv_file = open('cms_scrape.csv', 'w', newline='')
-
-csv_writer = csv.writer(csv_file)
-csv_writer.writerow(['Competition', 'Match Date', 'Team A', '"Team B', 'Score 1', 'Score 2'])
-
 # Competition specific info
 
-comp_file = open('competition_scrape.csv', 'w', newline='')
+comp_file = open('competition_data.csv', 'w', newline='')
 comp_writer = csv.writer(comp_file)
 comp_writer.writerow(['place', 'club', 'level', 'tournament_type', 'winner_points', 'finalist_points', 'semi_points', 'appearance_points', 'id'])
-id = 0
+
+event_file = open('event_data.csv', 'w', newline='')
+
+event_writer = csv.writer(event_file)
+event_writer.writerow(['stage', 'match_date', 'team_a', 'team_b', 'team_a_score', 'team_b_score', 'competition', 'id'])
+
+comp_id = 0
+match_id = 0
 for comp_name in soup.find_all('a', class_='eg-zone-element-1'):
     competition = comp_name.text
     link = comp_name['href']
     print(competition)
-    print(link)
-    id = id + 1
-    print(id)
+    # print(link)
+    comp_id = comp_id + 1
+    print(comp_id)
 
     next_level_link = requests.get(link).text  # basically source
     bs = BeautifulSoup(next_level_link, 'lxml')  # basically soup
 
-    # inside each page
+    # Match Data
     for table in bs.find_all('div', 'sp-template-event-list'):
         for section in table.find_all('h4'):
             stage = section.text
 
         for data in bs.find_all('tr', 'sp-row'):
+            match_id = match_id + 1
+            # print(match_id)
             # match_date
             try:
                 match_date = data.date.text
                 match_date = match_date.split(' ')[0]
                 date = match_date.split('-')
-                date = '%s-%s-%s' % (date[2], date[1], date[0])
+                date = '%s-%s-%s' % (date[0], date[1], date[2])
             except Exception as e:
                 pass
 
@@ -57,15 +61,18 @@ for comp_name in soup.find_all('a', class_='eg-zone-element-1'):
             # score
             try:
                 for score in data.find_all('td', 'data-results'):
-                    score = score.text.split('-')
-                    score1 = score[0]
-                    score2 = score[1]
+                    score = score.text
                     if score == '-':
-                        list = [stage, competition, date, team1, team2, '0']
-                        csv_writer.writerow(list)
+                        list = [stage, date, team1, team2, '0', '0', comp_id, match_id]
+                        event_writer.writerow(list)
+                        #print("this match was printed")
                     else:
-                        list = [stage, competition, date, team1, team2, score1, score2]
-                        csv_writer.writerow(list)
+                        score = score.split('-')
+                        score1 = score[0]
+                        score2 = score[1]
+                        data = [stage, date, team1, team2, score1, score2, comp_id, match_id]
+                        event_writer.writerow(data)
+                        #print("this match was not printed")
             except Exception as e:
                 pass
     # competition info
@@ -159,7 +166,7 @@ for comp_name in soup.find_all('a', class_='eg-zone-element-1'):
                 appearance_data = 0
                 competition_data.append(appearance_data)
                 # print(appearance_data)
-            competition_data.append(id)
+            competition_data.append(comp_id)
 
             comp_writer.writerow(competition_data)
 
@@ -167,6 +174,6 @@ for comp_name in soup.find_all('a', class_='eg-zone-element-1'):
         pass
 
 comp_file.close
-csv_file.close
+event_file.close
 
 print('done')
