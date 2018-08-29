@@ -52,6 +52,13 @@
     <Compile Include="polo\tests.py" />
     <Compile Include="polo\views.py" />
     <Compile Include="polo\__init__.py" />
+    <Compile Include="rugby_union\admin.py" />
+    <Compile Include="rugby_union\apps.py" />
+    <Compile Include="rugby_union\migrations\__init__.py" />
+    <Compile Include="rugby_union\models.py" />
+    <Compile Include="rugby_union\tests.py" />
+    <Compile Include="rugby_union\views.py" />
+    <Compile Include="rugby_union\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FTA_Score_Scraping\" />
@@ -62,6 +69,9 @@
     <Folder Include="polo\" />
     <Folder Include="polo\migrations\" />
     <Folder Include="polo\templates\" />
+    <Folder Include="rugby_union\" />
+    <Folder Include="rugby_union\migrations\" />
+    <Folder Include="rugby_union\templates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="golf\espn.html" />
@@ -72,6 +82,7 @@
     <Content Include="polo\templates\sample.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
+    <Content Include="rugby_union\templates\index.html" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.html">

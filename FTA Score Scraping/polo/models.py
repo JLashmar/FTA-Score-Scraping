@@ -6,6 +6,7 @@ from django.db import models
 
 
 class MyComp(models.Model):
+    comp_name = models.CharField(max_length=200, default='none', blank=True, null=True)
     place = models.CharField(max_length=200, default="name")
     club = models.CharField(max_length=200, default=None, blank=True, null=True)
     level = models.CharField(max_length=200, default=None, blank=True, null=True)

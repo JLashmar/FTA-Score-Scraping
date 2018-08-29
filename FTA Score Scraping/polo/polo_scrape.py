@@ -7,11 +7,11 @@ soup = BeautifulSoup(source, 'lxml')
 
 # Competition specific info
 
-comp_file = open('competition_data.csv', 'w', newline='')
+comp_file = open('competition_data.csv', 'w', newline='', encoding='utf-8')
 comp_writer = csv.writer(comp_file)
-comp_writer.writerow(['place', 'club', 'level', 'tournament_type', 'winner_points', 'finalist_points', 'semi_points', 'appearance_points', 'id'])
+comp_writer.writerow(['comp_name', 'place', 'club', 'level', 'tournament_type', 'winner_points', 'finalist_points', 'semi_points', 'appearance_points', 'id'])
 
-event_file = open('event_data.csv', 'w', newline='')
+event_file = open('event_data.csv', 'w', newline='', encoding='utf-8')
 
 event_writer = csv.writer(event_file)
 event_writer.writerow(['stage', 'match_date', 'team_a', 'team_b', 'team_a_score', 'team_b_score', 'competition', 'id'])
@@ -88,6 +88,7 @@ for comp_name in soup.find_all('a', class_='eg-zone-element-1'):
 
             # Location
             competition_data = []
+            competition_data.append(competition)
             #id = id + 1
             # competition_data.append(id)
             try:

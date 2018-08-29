@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'import_export',
     'golf',
     'polo',
+    'rugby_union',
     # Add your apps here to enable them
     'django.contrib.admin',
     'django.contrib.auth',
