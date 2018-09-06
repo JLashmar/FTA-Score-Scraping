@@ -1,52 +1,56 @@
 comp_name,place,club,level,tournament_type,winner_points,finalist_points,semi_points,appearance_points,id
-Torneo Clasificatorio Remonta y Veterinaria, Pilar Bs.As., Sede Alfredo Lalor de Pilar, 0-40hcp, Open,0,0,0,0,1
-Pacific Coast Open, Carpinteria California, Santa Barbara Polo & Racquet Club, 16hcp, Open, 50, 25, 10, 5,2
-Copa de Oro - Mediano, Sotogrande Spain, Santa María Polo Club, 13-14hcp, Open, 40, 20, 15, 5,3
-Copa de Oro - Bajo, Sotogrande Spain, Santa María Polo Club, 4-7hcp, Open,0,0,0,0,4
-Open du Soleil (10hcp), St.Tropez France, St. Tropez Polo Club, 10hcp, Handicap,0,0,0,0,5
-Open du Soleil (18hcp), St.Tropez France, St. Tropez Polo Club, 17-18hcp, Open, 30, 15, 5, 2,6
-Coupe d'Or, 34 Boulevard Mauger 14800 Deauville Francia, Deauville Polo Club, 14-16hcp, Handicap, 50, 25, 10, 5,7
-Copa de Oro - Alto Handicap, Sotogrande Spain, Santa María Polo Club, 20hcp, Open, 150, 75, 50, 35,8
-Coupe d'Argent, 34 Boulevard Mauger 14800 Deauville Francia, Deauville Polo Club, 16hcp, Handicap,0,0,0,0,9
-Ladies Polo Cup, 34 Boulevard Mauger 14800 Deauville Francia, Deauville Polo Club, 10hcp, 50, 25,0,0,0,10
-Copa de Plata – Bajo Handicap, Sotogrande Spain, Santa María Polo Club, 4-7hcp, Open,0,0,0,0,11
-Copa de Plata – Mediano Handicap, Sotogrande Spain, Santa María Polo Club, 14hcp, Open, 30, 15, 5, 2,12
-Cote d'Azur (10hcp), St.Tropez France, St. Tropez Polo Club, 10hcp, Handicap,0,0,0,0,13
-Cote d'Azur (18hcp), St.Tropez France, St. Tropez Polo Club, 18hcp, Handicap, 30, 15, 5, 2,14
-Copa de Plata - Alto Handicap, Sotogrande Spain, Santa María Polo Club, 20hcp, Open, 80, 40, 25, 10,15
-Copa de Bronce - Mediano Handicap, Sotogrande Spain, Santa María Polo Club, 15hcp, Open,0,0,0,0,16
-Copa de Bronce - Alto Handicap, Sotogrande Spain, Santa María Polo Club, 21hcp, Open,0,0,0,0,17
-Polo Master (10hcp), 1999 Route Du Bourrian 83580 Gassin Francia, St. Tropez Polo Club, 8-10hcp, Handicap,0,0,0,0,18
-Polo Master (15hcp), 1999 Route Du Bourrian 83580 Gassin Francia, St. Tropez Polo Club, 15hcp, Handicap,0,0,0,0,19
-USPA Silver Cup,  1 Hurlingham Drive Greenwich CT 06831, Greenwich Polo Club, 16hcp, Open,0,0,0,0,20
-Zurich International Ladies Polo Cup, Rietstrasse 12 8472 Seuzach Suiza,  Polo Park Zurich,null,null,0,0,0,0,21
-Old Westbury Cup, 200 Bellport Ave  Medford NY, Meadowbrook Polo Club, 10-12hcp, Handicap,0,0,0,0,22
-Sainte Mesme Polo Challenge, France, St. Mesme Polo Club, 12hcp, Handicap,0,0,0,0,23
-IPC 2018 (15 hcp), 1999 Route Du Bourrian 83580 Gassin Francia, St. Tropez Polo Club, 12-15hcp, Handicap, 40, 20, 10,0,24
-IPC 2018 (10 hcp), 1999 Route Du Bourrian 83580 Gassin Francia, St. Tropez Polo Club, 8-10hcp, Handicap,0,0,0,0,25
-Charriol Women's International, 1999 Route du Bourrian 83580 Gassin Francia, St. Tropez Polo Club, 10-14hcp, Handicap,0,0,0,0,26
-Monty Waterbury Cup, 1 Hurlingham Drive Greenwich CT 06831, Greenwich Polo Club, 16hcp, Open,0,0,0,0,27
-Gold Cup for the British Open, Easebourne Midhurst West Sussex, Cowdray Park Polo Club, 22hcp, Open, 200, 100, 70, 50,28
-124 Open de Paris Engel & Volkers, Paris France, Polo de Paris, 9-10hcp, Open, 30, 15, 5,0,29
-Royal Windsor Cup, Guards UK, Guards Polo Club, 12-15hcp, Handicap, 50, 25, 10,0,30
-The Shreve Crump & Low Cup, 80 Field Point Greenwich, Greenwich Polo Club, 16hcp, Open,0,0,0,0,31
-Northeast Cup, 200 Bellport Ave Medford NY 11763, Meadowbrook Polo Club, 12hcp,null,0,0,0,0,32
-Silver Whips, France, St Stropez Polo Club, 8-10hcp, Handicap,0,0,0,0,33
-Queens Cup, England, Guards Polo Club, 22hcp, Open, 125, 65, 45, 30,34
-Duke of Sutherland, Easebourne UK, Cowdray Park Polo Club, 15-18hcp, Handicap, 50, 25, 10,0,35
-Trippetts Challenge, Midhurst, Cowdray Park Polo Club, 22hcp, Open,0,0,0,0,36
-Queen Elizabeth The Queen Mother Centenary Trophy, Windsor Great Park, Guards Polo Club, 15hcp, Open, 10, 5, 1,0,37
-Barcelona Polo Challenge Negrita Cup, Barcelona Spain., Real Club de Polo de Barcelona, 6-8hcp, Handicap,0,0,0,0,38
-Evolution Cup, Pilar/ Buenos Aires, APP Pilar, 28-34hcp,null,0,0,0,0,39
-Copa de las Naciones, Palermo Buenos Aires, AAP Palermo, 26hcp, Open,0,0,0,0,40
-Copa Santa Paula, Pilar/Palermo Buenos Aires, AAP Pilar,  0-12hcp, Handicap,0,0,0,0,41
-Dubai Cup, Dubai UAE, Al Habtoor Polo Resort, 7-8hcp, Handicap,0,0,0,0,42
-US Open, Wellington Palm Beach Florida, International Polo Club, 20hcp, Open, 250, 125, 90,0,43
-Dubai Challenge Cup, Dubai UAE, Al Habtoor Polo Resort, 18hcp, Handicap, 20, 10, 2,0,44
-AHPRC March League, Dubai UAE, Al Habtoor Polo Resort, 2-5hcp, Handicap,0,0,0,0,45
-USPA Butler Handicap,  Wellington Palm Beach Florida, International Polo Club, 26hcp, Handicap,0,0,0,0,46
-Sterling Cup, Wellington Florida, Grand Champions Polo Club, 20Hcp, Open,0,0,0,0,47
-Iglehart Cup, Wellington Palm Beach Florida, International Polo Club, 20hcp, Open,0,0,0,0,48
-CV Whitney, Wellington Palm Beach Florida, International Polo Club, 26hcp, Open, 50, 25, 10,0,49
-Ylvisaker Cup, Wellington Palm Beach Florida, International Polo Club, 20hcp, Open, 40, 20, 10,0,50
-Joe Barry Cup, Wellington Palm Beach Florida, International Polo Club, 20hcp, Open, 30, 15, 5,0,51
+Abierto del Jockey Club, San Isidro Buenos Aires Argentina, Jockey Club, 0-40hcp, Open, 60, 30, 15, 8,1
+Gold Cup, St.Tropez France, St. Tropez Polo Club, 10-12hcp, Handicap,0,0,0,0,2
+Open de France, Apremont France, Chantilly Polo Club, 14-16hcp, Open, 50, 25, 10, 5,3
+East Coast Open, 80 Field Point Greenwich, Greenwich Polo Club, 18-20hcp, Open, 80, 40, 25, 10,4
+Torneo Clasificatorio Remonta y Veterinaria, Pilar Bs.As., Sede Alfredo Lalor de Pilar, 0-40hcp, Open,0,0,0,0,5
+Pacific Coast Open, Carpinteria California, Santa Barbara Polo & Racquet Club, 16hcp, Open, 50, 25, 10, 5,6
+Copa de Oro - Mediano, Sotogrande Spain, Santa María Polo Club, 13-14hcp, Open, 40, 20, 15, 5,7
+Copa de Oro - Bajo, Sotogrande Spain, Santa María Polo Club, 4-7hcp, Open,0,0,0,0,8
+Open du Soleil (10hcp), St.Tropez France, St. Tropez Polo Club, 10hcp, Handicap,0,0,0,0,9
+Open du Soleil (18hcp), St.Tropez France, St. Tropez Polo Club, 17-18hcp, Open, 30, 15, 5, 2,10
+Coupe d'Or, 34 Boulevard Mauger 14800 Deauville Francia, Deauville Polo Club, 14-16hcp, Handicap, 50, 25, 10, 5,11
+Copa de Oro - Alto Handicap, Sotogrande Spain, Santa María Polo Club, 20hcp, Open, 150, 75, 50, 35,12
+Coupe d'Argent, 34 Boulevard Mauger 14800 Deauville Francia, Deauville Polo Club, 16hcp, Handicap,0,0,0,0,13
+Ladies Polo Cup, 34 Boulevard Mauger 14800 Deauville Francia, Deauville Polo Club, 10hcp, 50, 25,0,0,0,14
+Copa de Plata – Bajo Handicap, Sotogrande Spain, Santa María Polo Club, 4-7hcp, Open,0,0,0,0,15
+Copa de Plata – Mediano Handicap, Sotogrande Spain, Santa María Polo Club, 14hcp, Open, 30, 15, 5, 2,16
+Cote d'Azur (10hcp), St.Tropez France, St. Tropez Polo Club, 10hcp, Handicap,0,0,0,0,17
+Cote d'Azur (18hcp), St.Tropez France, St. Tropez Polo Club, 18hcp, Handicap, 30, 15, 5, 2,18
+Copa de Plata - Alto Handicap, Sotogrande Spain, Santa María Polo Club, 20hcp, Open, 80, 40, 25, 10,19
+Copa de Bronce - Mediano Handicap, Sotogrande Spain, Santa María Polo Club, 15hcp, Open,0,0,0,0,20
+Copa de Bronce - Alto Handicap, Sotogrande Spain, Santa María Polo Club, 21hcp, Open,0,0,0,0,21
+Polo Master (10hcp), 1999 Route Du Bourrian 83580 Gassin Francia, St. Tropez Polo Club, 8-10hcp, Handicap,0,0,0,0,22
+Polo Master (15hcp), 1999 Route Du Bourrian 83580 Gassin Francia, St. Tropez Polo Club, 15hcp, Handicap,0,0,0,0,23
+USPA Silver Cup,  1 Hurlingham Drive Greenwich CT 06831, Greenwich Polo Club, 16hcp, Open,0,0,0,0,24
+Zurich International Ladies Polo Cup, Rietstrasse 12 8472 Seuzach Suiza,  Polo Park Zurich,null,null,0,0,0,0,25
+Old Westbury Cup, 200 Bellport Ave  Medford NY, Meadowbrook Polo Club, 10-12hcp, Handicap,0,0,0,0,26
+Sainte Mesme Polo Challenge, France, St. Mesme Polo Club, 12hcp, Handicap,0,0,0,0,27
+IPC 2018 (15 hcp), 1999 Route Du Bourrian 83580 Gassin Francia, St. Tropez Polo Club, 12-15hcp, Handicap, 40, 20, 10,0,28
+IPC 2018 (10 hcp), 1999 Route Du Bourrian 83580 Gassin Francia, St. Tropez Polo Club, 8-10hcp, Handicap,0,0,0,0,29
+Charriol Women's International, 1999 Route du Bourrian 83580 Gassin Francia, St. Tropez Polo Club, 10-14hcp, Handicap,0,0,0,0,30
+Monty Waterbury Cup, 1 Hurlingham Drive Greenwich CT 06831, Greenwich Polo Club, 16hcp, Open,0,0,0,0,31
+Gold Cup for the British Open, Easebourne Midhurst West Sussex, Cowdray Park Polo Club, 22hcp, Open, 200, 100, 70, 50,32
+124 Open de Paris Engel & Volkers, Paris France, Polo de Paris, 9-10hcp, Open, 30, 15, 5,0,33
+Royal Windsor Cup, Guards UK, Guards Polo Club, 12-15hcp, Handicap, 50, 25, 10,0,34
+The Shreve Crump & Low Cup, 80 Field Point Greenwich, Greenwich Polo Club, 16hcp, Open,0,0,0,0,35
+Northeast Cup, 200 Bellport Ave Medford NY 11763, Meadowbrook Polo Club, 12hcp,null,0,0,0,0,36
+Silver Whips, France, St Stropez Polo Club, 8-10hcp, Handicap,0,0,0,0,37
+Queens Cup, England, Guards Polo Club, 22hcp, Open, 125, 65, 45, 30,38
+Duke of Sutherland, Easebourne UK, Cowdray Park Polo Club, 15-18hcp, Handicap, 50, 25, 10,0,39
+Trippetts Challenge, Midhurst, Cowdray Park Polo Club, 22hcp, Open,0,0,0,0,40
+Queen Elizabeth The Queen Mother Centenary Trophy, Windsor Great Park, Guards Polo Club, 15hcp, Open, 10, 5, 1,0,41
+Barcelona Polo Challenge Negrita Cup, Barcelona Spain., Real Club de Polo de Barcelona, 6-8hcp, Handicap,0,0,0,0,42
+Evolution Cup, Pilar/ Buenos Aires, APP Pilar, 28-34hcp,null,0,0,0,0,43
+Copa de las Naciones, Palermo Buenos Aires, AAP Palermo, 26hcp, Open,0,0,0,0,44
+Copa Santa Paula, Pilar/Palermo Buenos Aires, AAP Pilar,  0-12hcp, Handicap,0,0,0,0,45
+Dubai Cup, Dubai UAE, Al Habtoor Polo Resort, 7-8hcp, Handicap,0,0,0,0,46
+US Open, Wellington Palm Beach Florida, International Polo Club, 20hcp, Open, 250, 125, 90,0,47
+Dubai Challenge Cup, Dubai UAE, Al Habtoor Polo Resort, 18hcp, Handicap, 20, 10, 2,0,48
+AHPRC March League, Dubai UAE, Al Habtoor Polo Resort, 2-5hcp, Handicap,0,0,0,0,49
+USPA Butler Handicap,  Wellington Palm Beach Florida, International Polo Club, 26hcp, Handicap,0,0,0,0,50
+Sterling Cup, Wellington Florida, Grand Champions Polo Club, 20Hcp, Open,0,0,0,0,51
+Iglehart Cup, Wellington Palm Beach Florida, International Polo Club, 20hcp, Open,0,0,0,0,52
+CV Whitney, Wellington Palm Beach Florida, International Polo Club, 26hcp, Open, 50, 25, 10,0,53
+Ylvisaker Cup, Wellington Palm Beach Florida, International Polo Club, 20hcp, Open, 40, 20, 10,0,54
+Joe Barry Cup, Wellington Palm Beach Florida, International Polo Club, 20hcp, Open, 30, 15, 5,0,55

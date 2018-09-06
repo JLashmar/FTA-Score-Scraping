@@ -59,6 +59,13 @@
     <Compile Include="rugby_union\tests.py" />
     <Compile Include="rugby_union\views.py" />
     <Compile Include="rugby_union\__init__.py" />
+    <Compile Include="sailing\admin.py" />
+    <Compile Include="sailing\apps.py" />
+    <Compile Include="sailing\migrations\__init__.py" />
+    <Compile Include="sailing\models.py" />
+    <Compile Include="sailing\tests.py" />
+    <Compile Include="sailing\views.py" />
+    <Compile Include="sailing\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FTA_Score_Scraping\" />
@@ -72,6 +79,9 @@
     <Folder Include="rugby_union\" />
     <Folder Include="rugby_union\migrations\" />
     <Folder Include="rugby_union\templates\" />
+    <Folder Include="sailing\" />
+    <Folder Include="sailing\migrations\" />
+    <Folder Include="sailing\templates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="golf\espn.html" />
@@ -83,6 +93,7 @@
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="rugby_union\templates\index.html" />
+    <Content Include="sailing\templates\index.html" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.html">

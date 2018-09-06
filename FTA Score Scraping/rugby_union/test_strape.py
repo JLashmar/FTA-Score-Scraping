@@ -3,7 +3,7 @@ import requests
 import csv
 import re
 
-source = requests.get('https://www.englandrugby.com/fixtures-and-results/teams/bath/gallagher-premiership/2018-2019/').text  # decomment to use live website
+source = requests.get('https://www.bbc.co.uk/sport/rugby-union/english-premiership/fixtures').text  # decomment to use live website
 # with open('espn.html') as source:
 soup = BeautifulSoup(source, 'lxml')  # remove tab amd line above to use live website
 
@@ -19,12 +19,22 @@ table_writer.writerow(
 )
 
 # fixtures:
-for comp in soup.find_all('div', {'id': 'competitionstab-content2'}):
-    id = 0
-    month_group = []
-    for data in comp.find_all('div', 'small-12 large-12 medium-12 columns'):
-        print(data)
-
+match_data = []
+for comp in soup.find_all('div', {'id': 'rugby-match-list'}):
+    for date in comp.find_all('h4'):
+        date = date.text
+        print(date.next_element)
+    for data in comp.find_all('article'):
+        team_list = []
+        team_list.append(date)
+        for home_team in data.find_all('abbr', {'data-role': 'home-team'}):
+            home_team = home_team.text
+            team_list.append(home_team)
+        for away_team in data.find_all('abbr', {'data-role': 'away-team'}):
+            away_team = away_team.text
+            team_list.append(away_team)
+        match_data.append(team_list)
+# print(match_data)
 
 fixture_file.close
 
@@ -41,5 +51,3 @@ for data in soup.find_all('div', {'id': 'competitionstab-content3'}):
         table_writer.writerow(team_row)
 
 table_file.close
-
-print('finished fixtures')
