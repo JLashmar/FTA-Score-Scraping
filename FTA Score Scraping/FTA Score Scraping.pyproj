@@ -52,6 +52,13 @@
     <Compile Include="polo\tests.py" />
     <Compile Include="polo\views.py" />
     <Compile Include="polo\__init__.py" />
+    <Compile Include="rugby_league\admin.py" />
+    <Compile Include="rugby_league\apps.py" />
+    <Compile Include="rugby_league\migrations\__init__.py" />
+    <Compile Include="rugby_league\models.py" />
+    <Compile Include="rugby_league\tests.py" />
+    <Compile Include="rugby_league\views.py" />
+    <Compile Include="rugby_league\__init__.py" />
     <Compile Include="rugby_union\admin.py" />
     <Compile Include="rugby_union\apps.py" />
     <Compile Include="rugby_union\migrations\__init__.py" />
@@ -76,6 +83,9 @@
     <Folder Include="polo\" />
     <Folder Include="polo\migrations\" />
     <Folder Include="polo\templates\" />
+    <Folder Include="rugby_league\" />
+    <Folder Include="rugby_league\migrations\" />
+    <Folder Include="rugby_league\templates\" />
     <Folder Include="rugby_union\" />
     <Folder Include="rugby_union\migrations\" />
     <Folder Include="rugby_union\templates\" />
@@ -92,6 +102,7 @@
     <Content Include="polo\templates\sample.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
+    <Content Include="rugby_league\templates\index.html" />
     <Content Include="rugby_union\templates\index.html" />
     <Content Include="sailing\templates\index.html" />
   </ItemGroup>

@@ -3,9 +3,9 @@ import requests
 import csv
 import re
 
-source = requests.get('https://www.englandrugby.com/fixtures-and-results/teams/bath/gallagher-premiership/2018-2019/').text  # decomment to use live website
-# with open('espn.html') as source:
-soup = BeautifulSoup(source, 'lxml')  # remove tab amd line above to use live website
+#source = requests.get('https://www.englandrugby.com/fixtures-and-results/competitions/gallagher-premiership/#/fixtures').text  # decomment to use live website
+with open('templates/fixtures.html') as source:
+    soup = BeautifulSoup(source, 'lxml')  # remove tab amd line above to use live website
 
 fixture_file = open('rfu_fixtures.csv', 'w', newline='')
 fixture_writer = csv.writer(fixture_file)
@@ -52,7 +52,7 @@ for comp in soup.find_all('div', {'id': 'competitionstab-content2'}):
         print_group.append(fixture_group)
     print_group.append(month_group)
     # fixture_writer.writerow(month_group)
-print(print_group)
+# print(print_group)
 
 fixture_file.close
 
@@ -69,5 +69,11 @@ for data in soup.find_all('div', {'id': 'competitionstab-content3'}):
         table_writer.writerow(team_row)
 
 table_file.close
+
+#################################
+#new style can replate all above#
+#################################
+
+
 
 print('finished fixtures')
