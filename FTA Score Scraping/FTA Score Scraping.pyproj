@@ -31,6 +31,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="field_hockey\admin.py" />
+    <Compile Include="field_hockey\apps.py" />
+    <Compile Include="field_hockey\migrations\__init__.py" />
+    <Compile Include="field_hockey\models.py" />
+    <Compile Include="field_hockey\tests.py" />
+    <Compile Include="field_hockey\views.py" />
+    <Compile Include="field_hockey\__init__.py" />
     <Compile Include="golf\admin.py" />
     <Compile Include="golf\apps.py" />
     <Compile Include="golf\migrations\__init__.py" />
@@ -75,6 +82,9 @@
     <Compile Include="sailing\__init__.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="field_hockey\" />
+    <Folder Include="field_hockey\migrations\" />
+    <Folder Include="field_hockey\templates\" />
     <Folder Include="FTA_Score_Scraping\" />
     <Folder Include="golf\" />
     <Folder Include="golf\migrations\" />
@@ -94,6 +104,7 @@
     <Folder Include="sailing\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="field_hockey\templates\index.html" />
     <Content Include="golf\espn.html" />
     <Content Include="golf\scrape_2_table.csv" />
     <Content Include="golf\table.html" />

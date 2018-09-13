@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'import_export',
+    'field_hockey',
     'golf',
     'polo',
     'rugby_union',

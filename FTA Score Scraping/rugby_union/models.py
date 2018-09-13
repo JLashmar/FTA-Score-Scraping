@@ -1,7 +1,6 @@
 from django.db import models
 
 # Create your models here.
-'match_date', 'home_team', 'away_team'
 
 
 class RFU_Fixtures(models.Model):
