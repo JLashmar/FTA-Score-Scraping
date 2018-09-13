@@ -3,9 +3,9 @@ import requests
 import csv
 import re
 
-fixture_source = requests.get('https://www.premier15s.com/fixtures-and-results/fixtures/').text  # decomment to use live website
-#with open('templates/premier15s_fixtures.html') as fixture_source:
-fixture_soup = BeautifulSoup(fixture_source, 'lxml')  # remove tab amd line above to use live website
+# fixture_source = requests.get('https://www.premier15s.com/fixtures-and-results/fixtures/').text  # decomment to use live website
+with open('templates/premier15s_fixtures.html') as fixture_source:
+    fixture_soup = BeautifulSoup(fixture_source, 'lxml')  # remove tab amd line above to use live website
 
 fixture_file = open('premier15s_fixtures.csv', 'w', newline='')
 fixture_writer = csv.writer(fixture_file)
@@ -117,3 +117,69 @@ for group in result_soup.find_all('div', 'group'):
         result_writer.writerow(match_data)
         # print(match_data)
 result_file.close
+
+#######
+#table#
+#######
+
+table_source = requests.get('https://www.premier15s.com/fixtures-and-results/standings/').text  # decomment to use live website
+# with open('templates/premier15s_table.html') as table_source:
+table_soup = BeautifulSoup(table_source, 'lxml')  # remove tab amd line above to use live website
+
+table_file = open('premier15s_table.csv', 'w', newline='')
+table_writer = csv.writer(table_file)
+table_writer.writerow(['id', 'position', 'team_name', 'won', 'draw', 'loss', 'points_for', 'points_against', 'points_difference', 'try_bonus', 'loss_bonus', 'points'])
+
+for group in table_soup.find_all('tbody'):
+    id = 0
+    for table in group.find_all('tr')[1:]:
+        id = id + 1
+        row_data = []
+        row_data.append(id)
+        for position in table.find_all('td', 'table-position'):
+            position = position.text.strip()
+            row_data.append(position)
+            #position
+        for team in table.find_all('td', 'table-name'):
+            team = team.text.strip()
+            row_data.append(team)
+            # team_name
+        for won in table.find_all('td', 'table-won'):
+            won = won.text.strip()
+            row_data.append(won)
+            # won
+        for drawn in table.find_all('td', 'table-drawn'):
+            drawn = drawn.text.strip()
+            row_data.append(drawn)
+            # draw
+        for lost in table.find_all('td', 'table-lost'):
+            lost = lost.text.strip()
+            row_data.append(lost)
+            # loss
+        for f in table.find_all('td', 'table-f'):
+            f = f.text.strip()
+            row_data.append(f)
+            # points_for
+        for a in table.find_all('td', 'table-a'):
+            a = a.text.strip()
+            row_data.append(a)
+            # points_against
+        for bpts in table.find_all('td', 'table-bpts'):
+            bpts = bpts.text.strip()
+            row_data.append(bpts)
+            # points_difference
+        for tb in table.find_all('td', 'table-tb'):
+            tb = tb.text.strip()
+            row_data.append(tb)
+            # try_bonus
+        for lb in table.find_all('td', 'table-lb'):
+            lb = lb.text.strip()
+            row_data.append(lb)
+            # loss_bonus
+        for pts in table.find_all('td', 'table-pts'):
+            pts = pts.text.strip()
+            row_data.append(pts)
+            # points
+        table_writer.writerow(row_data)
+        # print(row_data)
+table_file.close

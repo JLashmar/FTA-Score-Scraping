@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import RFU_Fixtures, RFU_Table, Premier15Fixtures, Premier15Results
+from .models import RFU_Fixtures, RFU_Table, Premier15Fixtures, Premier15Results, Premier15Table
 from import_export.admin import ImportExportModelAdmin
 # Register your models here.
 
@@ -21,4 +21,9 @@ class Premier15FixtureAdmin(ImportExportModelAdmin):
 
 @admin.register(Premier15Results)
 class Premier15ResultsAdmin(ImportExportModelAdmin):
+    pass
+
+
+@admin.register(Premier15Table)
+class Premier15TableAdmin(ImportExportModelAdmin):
     pass

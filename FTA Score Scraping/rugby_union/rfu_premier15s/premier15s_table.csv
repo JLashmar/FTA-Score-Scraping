@@ -1,0 +1,11 @@
+id,position,team_name,won,draw,loss,points_for,points_against,points_difference,try_bonus,loss_bonus,points
+1,1,Saracens Women,1,0,0,38,5,33,1,0,5
+2,2,Wasps FC Ladies,1,0,0,32,17,15,1,0,5
+3,3,Harlequins Ladies,1,0,0,38,24,14,1,0,5
+4,4,Darlington Mowden Park Sharks,1,0,0,27,24,3,1,0,5
+5,5,Loughborough Lightning,1,0,0,22,19,3,0,0,4
+6,6,Worcester Valkyries,0,0,1,24,27,-3,1,1,2
+7,7,Richmond FC,0,0,1,19,22,-3,0,1,1
+8,8,Gloucester-Hartpury Women's RFC,0,0,1,24,38,-14,1,0,1
+9,9,Bristol Bears Women,0,0,1,17,32,-15,0,0,0
+10,10,Firwood Waterloo Ladies,0,0,1,5,38,-33,0,0,0

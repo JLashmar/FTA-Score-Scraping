@@ -42,3 +42,17 @@ class Premier15Results(models.Model):
     home_score = models.IntegerField(null=True, blank=True)
     away_score = models.IntegerField(null=True, blank=True)
     away_team = models.CharField(max_length=200, default='none', blank=True, null=True)
+
+
+class Premier15Table(models.Model):
+    position = models.IntegerField(null=True, blank=True)
+    home_team = models.CharField(max_length=200, default='none', blank=True, null=True)
+    won = models.IntegerField(null=True, blank=True)
+    draw = models.IntegerField(null=True, blank=True)
+    loss = models.IntegerField(null=True, blank=True)
+    points_for = models.IntegerField(null=True, blank=True)
+    points_against = models.IntegerField(null=True, blank=True)
+    points_difference = models.IntegerField(null=True, blank=True)
+    try_bonus = models.IntegerField(null=True, blank=True)
+    loss_bonus = models.IntegerField(null=True, blank=True)
+    points = models.IntegerField(null=True, blank=True)
