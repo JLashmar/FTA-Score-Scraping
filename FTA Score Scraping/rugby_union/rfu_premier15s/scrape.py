@@ -4,7 +4,7 @@ import csv
 import re
 
 fixture_source = requests.get('https://www.premier15s.com/fixtures-and-results/fixtures/').text  # decomment to use live website
-# with open('templates/premier15s_fixtures.html') as fixture_source:
+#with open('templates/premier15s_fixtures.html') as fixture_source:
 fixture_soup = BeautifulSoup(fixture_source, 'lxml')  # remove tab amd line above to use live website
 
 fixture_file = open('premier15s_fixtures.csv', 'w', newline='')
@@ -34,19 +34,39 @@ for group in fixture_soup.find_all('div', 'group'):
             day = date[0]
             month = date[1]
             if month == "Jan":
-                month = '01 2019'
+                month = '01'
             if month == "Mar":
-                month = '03 2019'
+                month = '03'
             if month == "Sep":
-                month = '09 2018'
+                month = '09'
             if month == "Oct":
-                month = '10 2018'
+                month = '10'
             if month == "Nov":
-                month = '11 2018'
+                month = '11'
             if month == "Dec":
-                month = '12 2018'
-            date = day + " " + month
-            match_data.append(date)
+                month = '12'
+            date = month + " " + day
+            if month == '01':
+                date = month + "/" + day + "/2019"
+                match_data.append(date)
+            if month == '02':
+                date = month + "/" + day + "/2019"
+                match_data.append(date)
+            if month == '03':
+                date = month + "/" + day + "/2019"
+                match_data.append(date)
+            if month == '09':
+                date = month + "/" + day + "/2018"
+                match_data.append(date)
+            if month == '10':
+                date = month + "/" + day + "/2018"
+                match_data.append(date)
+            if month == '11':
+                date = month + "/" + day + "/2018"
+                match_data.append(date)
+            if month == '12':
+                date = month + "/" + day + "/2018"
+                match_data.append(date)
             # match_date
         for awayTeam in match.find_all('div', 'fix-away'):
             awayTeam = awayTeam.text.strip()
@@ -60,9 +80,9 @@ fixture_file.close
 #results#
 #########
 
-result_source = requests.get('https://www.premier15s.com/fixtures-and-results/results/').text  # decomment to use live website
-# with open('templates/premier15s_results.html') as result_source:
-result_soup = BeautifulSoup(result_source, 'lxml')  # remove tab amd line above to use live website
+# result_source = requests.get('https://www.premier15s.com/fixtures-and-results/results/').text  # decomment to use live website
+with open('templates/premier15s_results.html') as result_source:
+    result_soup = BeautifulSoup(result_source, 'lxml')  # remove tab amd line above to use live website
 
 result_file = open('premier15s_results.csv', 'w', newline='')
 result_writer = csv.writer(result_file)

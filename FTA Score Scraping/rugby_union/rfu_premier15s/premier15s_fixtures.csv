@@ -1,86 +1,86 @@
 id,round,home_team,match_date,away_team
-1,18,Wasps FC Ladies,15 09 2018,Loughborough Lightning
-2,18,Saracens Women,15 09 2018,Worcester Valkyries
-3,18,Darlington Mowden Park Sharks,15 09 2018,Gloucester-Hartpury Women's RFC
-4,18,Richmond FC,15 09 2018,Firwood Waterloo Ladies
-5,18,Harlequins Ladies,15 09 2018,Bristol Bears Women
-6,18,Firwood Waterloo Ladies,22 09 2018,Wasps FC Ladies
-7,18,Worcester Valkyries,22 09 2018,Richmond FC
-8,18,Darlington Mowden Park Sharks,22 09 2018,Saracens Women
-9,18,Bristol Bears Women,22 09 2018,Gloucester-Hartpury Women's RFC
-10,18,Loughborough Lightning,22 09 2018,Harlequins Ladies
-11,18,Bristol Bears Women,29 09 2018,Darlington Mowden Park Sharks
-12,18,Gloucester-Hartpury Women's RFC,29 09 2018,Loughborough Lightning
-13,18,Wasps FC Ladies,29 09 2018,Worcester Valkyries
-14,18,Harlequins Ladies,29 09 2018,Firwood Waterloo Ladies
-15,18,Richmond FC,29 09 2018,Saracens Women
-16,18,Firwood Waterloo Ladies,13 10 2018,Gloucester-Hartpury Women's RFC
-17,18,Worcester Valkyries,13 10 2018,Harlequins Ladies
-18,18,Loughborough Lightning,13 10 2018,Bristol Bears Women
-19,18,Saracens Women,13 10 2018,Wasps FC Ladies
-20,18,Darlington Mowden Park Sharks,13 10 2018,Richmond FC
-21,18,Wasps FC Ladies,20 10 2018,Richmond FC
-22,18,Bristol Bears Women,20 10 2018,Firwood Waterloo Ladies
-23,18,Harlequins Ladies,20 10 2018,Saracens Women
-24,18,Gloucester-Hartpury Women's RFC,20 10 2018,Worcester Valkyries
-25,18,Loughborough Lightning,20 10 2018,Darlington Mowden Park Sharks
-26,18,Firwood Waterloo Ladies,27 10 2018,Loughborough Lightning
-27,18,Worcester Valkyries,27 10 2018,Bristol Bears Women
-28,18,Darlington Mowden Park Sharks,27 10 2018,Wasps FC Ladies
-29,18,Richmond FC,28 10 2018,Harlequins Ladies
-30,18,Saracens Women,28 10 2018,Gloucester-Hartpury Women's RFC
-31,18,Loughborough Lightning,3 11 2018,Worcester Valkyries
-32,18,Firwood Waterloo Ladies,3 11 2018,Darlington Mowden Park Sharks
-33,18,Gloucester-Hartpury Women's RFC,3 11 2018,Richmond FC
-34,18,Bristol Bears Women,3 11 2018,Saracens Women
-35,18,Harlequins Ladies,4 11 2018,Wasps FC Ladies
-36,18,Richmond FC,24 11 2018,Bristol Bears Women
-37,18,Wasps FC Ladies,24 11 2018,Gloucester-Hartpury Women's RFC
-38,18,Worcester Valkyries,24 11 2018,Firwood Waterloo Ladies
-39,18,Darlington Mowden Park Sharks,24 11 2018,Harlequins Ladies
-40,18,Saracens Women,24 11 2018,Loughborough Lightning
-41,18,Gloucester-Hartpury Women's RFC,1 12 2018,Darlington Mowden Park Sharks
-42,18,Bristol Bears Women,1 12 2018,Harlequins Ladies
-43,18,Loughborough Lightning,1 12 2018,Wasps FC Ladies
-44,18,Worcester Valkyries,1 12 2018,Saracens Women
-45,18,Firwood Waterloo Ladies,2 12 2018,Richmond FC
-46,18,Harlequins Ladies,8 12 2018,Loughborough Lightning
-47,18,Gloucester-Hartpury Women's RFC,8 12 2018,Bristol Bears Women
-48,18,Wasps FC Ladies,8 12 2018,Firwood Waterloo Ladies
-49,18,Saracens Women,8 12 2018,Darlington Mowden Park Sharks
-50,18,Richmond FC,9 12 2018,Worcester Valkyries
-51,18,Loughborough Lightning,15 12 2018,Gloucester-Hartpury Women's RFC
-52,18,Worcester Valkyries,15 12 2018,Wasps FC Ladies
-53,18,Firwood Waterloo Ladies,15 12 2018,Harlequins Ladies
-54,18,Saracens Women,15 12 2018,Richmond FC
-55,18,Darlington Mowden Park Sharks,15 12 2018,Bristol Bears Women
-56,18,Harlequins Ladies,22 12 2018,Worcester Valkyries
-57,18,Gloucester-Hartpury Women's RFC,22 12 2018,Firwood Waterloo Ladies
-58,18,Wasps FC Ladies,22 12 2018,Saracens Women
-59,18,Richmond FC,22 12 2018,Darlington Mowden Park Sharks
-60,18,Bristol Bears Women,22 12 2018,Loughborough Lightning
-61,18,Worcester Valkyries,12 01 2019,Gloucester-Hartpury Women's RFC
-62,18,Firwood Waterloo Ladies,12 01 2019,Bristol Bears Women
-63,18,Richmond FC,12 01 2019,Wasps FC Ladies
-64,18,Saracens Women,12 01 2019,Harlequins Ladies
-65,18,Darlington Mowden Park Sharks,12 01 2019,Loughborough Lightning
-66,18,Loughborough Lightning,19 01 2019,Firwood Waterloo Ladies
-67,18,Harlequins Ladies,19 01 2019,Richmond FC
-68,18,Wasps FC Ladies,19 01 2019,Darlington Mowden Park Sharks
-69,18,Bristol Bears Women,19 01 2019,Worcester Valkyries
-70,18,Gloucester-Hartpury Women's RFC,19 01 2019,Saracens Women
-71,18,Wasps FC Ladies,26 01 2019,Harlequins Ladies
-72,18,Worcester Valkyries,26 01 2019,Loughborough Lightning
-73,18,Saracens Women,26 01 2019,Bristol Bears Women
-74,18,Darlington Mowden Park Sharks,26 01 2019,Firwood Waterloo Ladies
-75,18,Richmond FC,27 01 2019,Gloucester-Hartpury Women's RFC
-76,18,Bristol Bears Women,23 03 2019,Richmond FC
-77,18,Firwood Waterloo Ladies,23 03 2019,Worcester Valkyries
-78,18,Gloucester-Hartpury Women's RFC,23 03 2019,Wasps FC Ladies
-79,18,Harlequins Ladies,23 03 2019,Darlington Mowden Park Sharks
-80,18,Loughborough Lightning,23 03 2019,Saracens Women
-81,18,Worcester Valkyries,30 03 2019,Darlington Mowden Park Sharks
-82,18,Harlequins Ladies,30 03 2019,Gloucester-Hartpury Women's RFC
-83,18,Saracens Women,30 03 2019,Firwood Waterloo Ladies
-84,18,Wasps FC Ladies,30 03 2019,Bristol Bears Women
-85,18,Richmond FC,30 03 2019,Loughborough Lightning
+1,18,Wasps FC Ladies,09/15/2018,Loughborough Lightning
+2,18,Saracens Women,09/15/2018,Worcester Valkyries
+3,18,Darlington Mowden Park Sharks,09/15/2018,Gloucester-Hartpury Women's RFC
+4,18,Richmond FC,09/15/2018,Firwood Waterloo Ladies
+5,18,Harlequins Ladies,09/15/2018,Bristol Bears Women
+6,18,Firwood Waterloo Ladies,09/22/2018,Wasps FC Ladies
+7,18,Worcester Valkyries,09/22/2018,Richmond FC
+8,18,Darlington Mowden Park Sharks,09/22/2018,Saracens Women
+9,18,Bristol Bears Women,09/22/2018,Gloucester-Hartpury Women's RFC
+10,18,Loughborough Lightning,09/22/2018,Harlequins Ladies
+11,18,Bristol Bears Women,09/29/2018,Darlington Mowden Park Sharks
+12,18,Gloucester-Hartpury Women's RFC,09/29/2018,Loughborough Lightning
+13,18,Wasps FC Ladies,09/29/2018,Worcester Valkyries
+14,18,Harlequins Ladies,09/29/2018,Firwood Waterloo Ladies
+15,18,Richmond FC,09/29/2018,Saracens Women
+16,18,Firwood Waterloo Ladies,10/13/2018,Gloucester-Hartpury Women's RFC
+17,18,Worcester Valkyries,10/13/2018,Harlequins Ladies
+18,18,Loughborough Lightning,10/13/2018,Bristol Bears Women
+19,18,Saracens Women,10/13/2018,Wasps FC Ladies
+20,18,Darlington Mowden Park Sharks,10/13/2018,Richmond FC
+21,18,Wasps FC Ladies,10/20/2018,Richmond FC
+22,18,Bristol Bears Women,10/20/2018,Firwood Waterloo Ladies
+23,18,Harlequins Ladies,10/20/2018,Saracens Women
+24,18,Gloucester-Hartpury Women's RFC,10/20/2018,Worcester Valkyries
+25,18,Loughborough Lightning,10/20/2018,Darlington Mowden Park Sharks
+26,18,Firwood Waterloo Ladies,10/27/2018,Loughborough Lightning
+27,18,Worcester Valkyries,10/27/2018,Bristol Bears Women
+28,18,Darlington Mowden Park Sharks,10/27/2018,Wasps FC Ladies
+29,18,Richmond FC,10/28/2018,Harlequins Ladies
+30,18,Saracens Women,10/28/2018,Gloucester-Hartpury Women's RFC
+31,18,Loughborough Lightning,11/3/2018,Worcester Valkyries
+32,18,Firwood Waterloo Ladies,11/3/2018,Darlington Mowden Park Sharks
+33,18,Gloucester-Hartpury Women's RFC,11/3/2018,Richmond FC
+34,18,Bristol Bears Women,11/3/2018,Saracens Women
+35,18,Harlequins Ladies,11/4/2018,Wasps FC Ladies
+36,18,Richmond FC,11/24/2018,Bristol Bears Women
+37,18,Wasps FC Ladies,11/24/2018,Gloucester-Hartpury Women's RFC
+38,18,Worcester Valkyries,11/24/2018,Firwood Waterloo Ladies
+39,18,Darlington Mowden Park Sharks,11/24/2018,Harlequins Ladies
+40,18,Saracens Women,11/24/2018,Loughborough Lightning
+41,18,Gloucester-Hartpury Women's RFC,12/1/2018,Darlington Mowden Park Sharks
+42,18,Bristol Bears Women,12/1/2018,Harlequins Ladies
+43,18,Loughborough Lightning,12/1/2018,Wasps FC Ladies
+44,18,Worcester Valkyries,12/1/2018,Saracens Women
+45,18,Firwood Waterloo Ladies,12/2/2018,Richmond FC
+46,18,Harlequins Ladies,12/8/2018,Loughborough Lightning
+47,18,Gloucester-Hartpury Women's RFC,12/8/2018,Bristol Bears Women
+48,18,Wasps FC Ladies,12/8/2018,Firwood Waterloo Ladies
+49,18,Saracens Women,12/8/2018,Darlington Mowden Park Sharks
+50,18,Richmond FC,12/9/2018,Worcester Valkyries
+51,18,Loughborough Lightning,12/15/2018,Gloucester-Hartpury Women's RFC
+52,18,Worcester Valkyries,12/15/2018,Wasps FC Ladies
+53,18,Firwood Waterloo Ladies,12/15/2018,Harlequins Ladies
+54,18,Saracens Women,12/15/2018,Richmond FC
+55,18,Darlington Mowden Park Sharks,12/15/2018,Bristol Bears Women
+56,18,Harlequins Ladies,12/22/2018,Worcester Valkyries
+57,18,Gloucester-Hartpury Women's RFC,12/22/2018,Firwood Waterloo Ladies
+58,18,Wasps FC Ladies,12/22/2018,Saracens Women
+59,18,Richmond FC,12/22/2018,Darlington Mowden Park Sharks
+60,18,Bristol Bears Women,12/22/2018,Loughborough Lightning
+61,18,Worcester Valkyries,01/12/2019,Gloucester-Hartpury Women's RFC
+62,18,Firwood Waterloo Ladies,01/12/2019,Bristol Bears Women
+63,18,Richmond FC,01/12/2019,Wasps FC Ladies
+64,18,Saracens Women,01/12/2019,Harlequins Ladies
+65,18,Darlington Mowden Park Sharks,01/12/2019,Loughborough Lightning
+66,18,Loughborough Lightning,01/19/2019,Firwood Waterloo Ladies
+67,18,Harlequins Ladies,01/19/2019,Richmond FC
+68,18,Wasps FC Ladies,01/19/2019,Darlington Mowden Park Sharks
+69,18,Bristol Bears Women,01/19/2019,Worcester Valkyries
+70,18,Gloucester-Hartpury Women's RFC,01/19/2019,Saracens Women
+71,18,Wasps FC Ladies,01/26/2019,Harlequins Ladies
+72,18,Worcester Valkyries,01/26/2019,Loughborough Lightning
+73,18,Saracens Women,01/26/2019,Bristol Bears Women
+74,18,Darlington Mowden Park Sharks,01/26/2019,Firwood Waterloo Ladies
+75,18,Richmond FC,01/27/2019,Gloucester-Hartpury Women's RFC
+76,18,Bristol Bears Women,03/23/2019,Richmond FC
+77,18,Firwood Waterloo Ladies,03/23/2019,Worcester Valkyries
+78,18,Gloucester-Hartpury Women's RFC,03/23/2019,Wasps FC Ladies
+79,18,Harlequins Ladies,03/23/2019,Darlington Mowden Park Sharks
+80,18,Loughborough Lightning,03/23/2019,Saracens Women
+81,18,Worcester Valkyries,03/30/2019,Darlington Mowden Park Sharks
+82,18,Harlequins Ladies,03/30/2019,Gloucester-Hartpury Women's RFC
+83,18,Saracens Women,03/30/2019,Firwood Waterloo Ladies
+84,18,Wasps FC Ladies,03/30/2019,Bristol Bears Women
+85,18,Richmond FC,03/30/2019,Loughborough Lightning

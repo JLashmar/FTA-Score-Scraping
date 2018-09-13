@@ -27,3 +27,18 @@ class RFU_Table(models.Model):
     try_bonus = models.FloatField(null=True, blank=True)
     loss_bonus = models.FloatField(null=True, blank=True)
     points = models.FloatField(null=True, blank=True)
+
+
+class Premier15Fixtures(models.Model):
+    round = models.IntegerField(null=True, blank=True)
+    home_team = models.CharField(max_length=200, default='none', blank=True, null=True)
+    match_date = models.DateField(default=None, blank=True, null=True)
+    away_team = models.CharField(max_length=200, default='none', blank=True, null=True)
+
+
+class Premier15Results(models.Model):
+    round = models.IntegerField(null=True, blank=True)
+    home_team = models.CharField(max_length=200, default='none', blank=True, null=True)
+    home_score = models.IntegerField(null=True, blank=True)
+    away_score = models.IntegerField(null=True, blank=True)
+    away_team = models.CharField(max_length=200, default='none', blank=True, null=True)
