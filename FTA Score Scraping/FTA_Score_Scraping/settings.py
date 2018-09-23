@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'import_export',
     'field_hockey',
     'golf',
+    'ice_hockey',
     'polo',
     'rugby_union',
     # Add your apps here to enable them

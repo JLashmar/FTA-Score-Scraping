@@ -1,0 +1,49 @@
+Hello,
+
+I'm trying to scrape a file I have written as a learning experiment. It looks like this:
+
+    <div class="container">
+        <div class="date">1st</div>
+        <div class="events">
+            <div class="meeting">
+                <span class="name">Bob</span>
+                <span class="name">Charlie</span>
+                <span class="name">Arther</span>
+            </div>
+        </div>
+        <div class="date">2nd</div>
+        <div class="event">
+            <div class="meeting">
+                <span class="name">Emma</span>
+                <span class="name">Frank</span>
+                <span class="name">Charlie</span>
+            </div>
+        </div>
+        <div class="date">3rd</div>
+        <div class="event">
+            <div class="meeting">
+                <span class="name">Lisa</span>
+                <span class="name">Tony</span>
+            </div>
+        </div>
+        <div class="date">4th</div>
+        <div class="event">
+            <div class="meeting">
+                <span class="name">Ant</span>
+            </div>
+        </div>
+    </div>
+
+I would like to scrap the data so it returns the Span with the assosiated Date. So for example:
+
+    data = [['1st', 'bob'], ['2nd', 'Emma', 'Frank' 'Charlie'], ['3rd', 'Lisa', 'Tony']]
+
+The problem I am having is where the Div's `date` and `event` are on the same level, when I scrape through using the following:
+
+    for data in schedule_soup.find_all('div', 'container'):
+        for date in data.find_all('div', 'date'):
+            print(date)
+        for name in data.find_all('span', 'name'):
+            print(name)
+
+I get this:

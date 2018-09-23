@@ -46,6 +46,13 @@
     <Compile Include="golf\tests.py" />
     <Compile Include="golf\views.py" />
     <Compile Include="golf\__init__.py" />
+    <Compile Include="ice_hockey\admin.py" />
+    <Compile Include="ice_hockey\apps.py" />
+    <Compile Include="ice_hockey\migrations\__init__.py" />
+    <Compile Include="ice_hockey\models.py" />
+    <Compile Include="ice_hockey\tests.py" />
+    <Compile Include="ice_hockey\views.py" />
+    <Compile Include="ice_hockey\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="FTA_Score_Scraping\__init__.py" />
     <Compile Include="FTA_Score_Scraping\settings.py" />
@@ -90,6 +97,9 @@
     <Folder Include="golf\migrations\" />
     <Folder Include="golf\stored_page\" />
     <Folder Include="golf\templates\" />
+    <Folder Include="ice_hockey\" />
+    <Folder Include="ice_hockey\migrations\" />
+    <Folder Include="ice_hockey\templates\" />
     <Folder Include="polo\" />
     <Folder Include="polo\migrations\" />
     <Folder Include="polo\templates\" />
@@ -109,6 +119,7 @@
     <Content Include="golf\scrape_2_table.csv" />
     <Content Include="golf\table.html" />
     <Content Include="golf\templates\index.html" />
+    <Content Include="ice_hockey\templates\index.html" />
     <Content Include="polo\templates\index.html" />
     <Content Include="polo\templates\sample.html" />
     <Content Include="requirements.txt" />

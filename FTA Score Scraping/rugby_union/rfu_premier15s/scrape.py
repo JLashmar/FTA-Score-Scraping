@@ -3,9 +3,9 @@ import requests
 import csv
 import re
 
-# fixture_source = requests.get('https://www.premier15s.com/fixtures-and-results/fixtures/').text  # decomment to use live website
-with open('templates/premier15s_fixtures.html') as fixture_source:
-    fixture_soup = BeautifulSoup(fixture_source, 'lxml')  # remove tab amd line above to use live website
+fixture_source = requests.get('https://www.premier15s.com/fixtures-and-results/fixtures/').text  # decomment to use live website
+# with open('templates/premier15s_fixtures.html') as fixture_source:
+fixture_soup = BeautifulSoup(fixture_source, 'lxml')  # remove tab amd line above to use live website
 
 fixture_file = open('premier15s_fixtures.csv', 'w', newline='')
 fixture_writer = csv.writer(fixture_file)
@@ -80,9 +80,9 @@ fixture_file.close
 #results#
 #########
 
-# result_source = requests.get('https://www.premier15s.com/fixtures-and-results/results/').text  # decomment to use live website
-with open('templates/premier15s_results.html') as result_source:
-    result_soup = BeautifulSoup(result_source, 'lxml')  # remove tab amd line above to use live website
+result_source = requests.get('https://www.premier15s.com/fixtures-and-results/results/').text  # decomment to use live website
+# with open('templates/premier15s_results.html') as result_source:
+result_soup = BeautifulSoup(result_source, 'lxml')  # remove tab amd line above to use live website
 
 result_file = open('premier15s_results.csv', 'w', newline='')
 result_writer = csv.writer(result_file)
@@ -139,7 +139,7 @@ for group in table_soup.find_all('tbody'):
         for position in table.find_all('td', 'table-position'):
             position = position.text.strip()
             row_data.append(position)
-            #position
+            # position
         for team in table.find_all('td', 'table-name'):
             team = team.text.strip()
             row_data.append(team)

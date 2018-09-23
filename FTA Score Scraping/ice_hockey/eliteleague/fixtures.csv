@@ -1,0 +1,331 @@
+id,date,home_team,away_team,score
+1,09/08/2018,Sheffield Steelers,Milton Keynes Lightning,2-3 FINAL
+2,09/08/2018,Nottingham Panthers,Manchester Storm,2-1 FINAL
+3,09/09/2018,Milton Keynes Lightning,Sheffield Steelers,2-5 FINAL
+4,09/09/2018,Manchester Storm,Nottingham Panthers,1-4 FINAL
+5,09/12/2018,Sheffield Steelers,Fife Flyers,4-3 FINAL - OT
+6,09/15/2018,Cardiff Devils,Nottingham Panthers,3-2 FINAL
+7,09/16/2018,Coventry Blaze,Nottingham Panthers,4-5 FINAL - SHOOTOUT
+8,09/16/2018,Manchester Storm,Glasgow Clan,2-4 FINAL
+9,09/16/2018,Guildford Flames,Sheffield Steelers,5-1 FINAL
+10,09/18/2018,Guildford Flames,Fife Flyers,1-4 FINAL
+11,09/19/2018,Belfast Giants,Nottingham Panthers,3-6 FINAL
+12,09/22/2018,Nottingham Panthers,Glasgow Clan,2-5 FINAL
+13,09/22/2018,Fife Flyers,Belfast Giants,4-2 FINAL
+14,09/23/2018,Sheffield Steelers,Cardiff Devils,2-6 FINAL
+15,09/23/2018,Dundee Stars,Manchester Storm,1-2 UNOFFICIAL FINAL
+16,09/23/2018,Coventry Blaze,Milton Keynes Lightning,5-2 FINAL
+17,09/23/2018,Guildford Flames,Glasgow Clan,2-0 FINAL
+18,09/26/2018,Nottingham Panthers,Cardiff Devils,7:30 pm
+19,09/26/2018,Sheffield Steelers,Dundee Stars,7:30 pm
+20,09/28/2018,Belfast Giants,Dundee Stars,7:00 pm
+21,09/29/2018,Coventry Blaze,Glasgow Clan,7:00 pm
+22,09/29/2018,Manchester Storm,Milton Keynes Lightning,7:00 pm
+23,09/29/2018,Dundee Stars,Belfast Giants,7:00 pm
+24,09/30/2018,Milton Keynes Lightning,Dundee Stars,5:15 pm
+25,09/30/2018,Coventry Blaze,Sheffield Steelers,5:15 pm
+26,09/30/2018,Guildford Flames,Nottingham Panthers,6:00 pm
+27,09/30/2018,Cardiff Devils,Glasgow Clan,6:00 pm
+28,09/30/2018,Fife Flyers,Manchester Storm,6:30 pm
+29,10/03/2018,Dundee Stars,Cardiff Devils,7:30 pm
+30,10/05/2018,Belfast Giants,Milton Keynes Lightning,7:00 pm
+31,10/06/2018,Guildford Flames,Dundee Stars,6:00 pm
+32,10/06/2018,Cardiff Devils,Manchester Storm,7:00 pm
+33,10/06/2018,Sheffield Steelers,Glasgow Clan,7:00 pm
+34,10/06/2018,Nottingham Panthers,Coventry Blaze,7:00 pm
+35,10/06/2018,Belfast Giants,Milton Keynes Lightning,7:00 pm
+36,10/07/2018,Dundee Stars,Guildford Flames,5:00 pm
+37,10/07/2018,Coventry Blaze,Belfast Giants,5:15 pm
+38,10/07/2018,Milton Keynes Lightning,Nottingham Panthers,5:15 pm
+39,10/07/2018,Manchester Storm,Glasgow Clan,5:30 pm
+40,10/07/2018,Fife Flyers,Sheffield Steelers,6:30 pm
+41,10/10/2018,Belfast Giants,Guildford Flames,7:30 pm
+42,10/13/2018,Cardiff Devils,Dundee Stars,7:00 pm
+43,10/13/2018,Manchester Storm,Coventry Blaze,7:00 pm
+44,10/13/2018,Nottingham Panthers,Sheffield Steelers,7:00 pm
+45,10/13/2018,Fife Flyers,Guildford Flames,7:15 pm
+46,10/14/2018,Belfast Giants,Nottingham Panthers,4:00 pm
+47,10/14/2018,Dundee Stars,Glasgow Clan,5:00 pm
+48,10/14/2018,Coventry Blaze,Manchester Storm,5:15 pm
+49,10/14/2018,Guildford Flames,Fife Flyers,6:00 pm
+50,10/17/2018,Sheffield Steelers,Fife Flyers,7:30 pm
+51,10/19/2018,Milton Keynes Lightning,Belfast Giants,7:30 pm
+52,10/19/2018,Glasgow Clan,Nottingham Panthers,7:30 pm
+53,10/20/2018,Milton Keynes Lightning,Belfast Giants,7:00 pm
+54,10/20/2018,Glasgow Clan,Coventry Blaze,7:00 pm
+55,10/20/2018,Manchester Storm,Dundee Stars,7:00 pm
+56,10/20/2018,Cardiff Devils,Sheffield Steelers,7:00 pm
+57,10/20/2018,Fife Flyers,Nottingham Panthers,7:15 pm
+58,10/21/2018,Sheffield Steelers,Manchester Storm,4:00 pm
+59,10/21/2018,Cardiff Devils,Fife Flyers,4:00 pm
+60,10/21/2018,Dundee Stars,Nottingham Panthers,5:00 pm
+61,10/21/2018,Guildford Flames,Belfast Giants,6:00 pm
+62,10/24/2018,Guildford Flames,Sheffield Steelers,7:30 pm
+63,10/26/2018,Dundee Stars,Milton Keynes Lightning,7:30 pm
+64,10/27/2018,Manchester Storm,Belfast Giants,7:00 pm
+65,10/27/2018,Glasgow Clan,Milton Keynes Lightning,7:00 pm
+66,10/27/2018,Sheffield Steelers,Nottingham Panthers,7:00 pm
+67,10/27/2018,Fife Flyers,Coventry Blaze,7:15 pm
+68,10/28/2018,Nottingham Panthers,Belfast Giants,4:00 pm
+69,10/28/2018,Guildford Flames,Manchester Storm,6:00 pm
+70,10/28/2018,Fife Flyers,Milton Keynes Lightning,6:30 pm
+71,10/31/2018,Glasgow Clan,Cardiff Devils,7:30 pm
+72,10/31/2018,Sheffield Steelers,Coventry Blaze,7:30 pm
+73,11/02/2018,Fife Flyers,Belfast Giants,7:30 pm
+74,11/03/2018,Milton Keynes Lightning,Guildford Flames,7:00 pm
+75,11/03/2018,Manchester Storm,Fife Flyers,7:00 pm
+76,11/03/2018,Sheffield Steelers,Dundee Stars,7:00 pm
+77,11/03/2018,Cardiff Devils,Coventry Blaze,7:00 pm
+78,11/03/2018,Glasgow Clan,Belfast Giants,7:00 pm
+79,11/04/2018,Nottingham Panthers,Cardiff Devils,4:00 pm
+80,11/04/2018,Dundee Stars,Belfast Giants,5:00 pm
+81,11/04/2018,Coventry Blaze,Fife Flyers,5:15 pm
+82,11/07/2018,Cardiff Devils,Fife Flyers,7:30 pm
+83,11/09/2018,Manchester Storm,Milton Keynes Lightning,7:30 pm
+84,11/10/2018,Sheffield Steelers,Guildford Flames,7:00 pm
+85,11/10/2018,Nottingham Panthers,Belfast Giants,7:00 pm
+86,11/10/2018,Glasgow Clan,Coventry Blaze,7:00 pm
+87,11/10/2018,Milton Keynes Lightning,Cardiff Devils,7:00 pm
+88,11/10/2018,Fife Flyers,Manchester Storm,7:15 pm
+89,11/11/2018,Dundee Stars,Sheffield Steelers,5:00 pm
+90,11/11/2018,Coventry Blaze,Glasgow Clan,5:15 pm
+91,11/11/2018,Cardiff Devils,Belfast Giants,6:00 pm
+92,11/11/2018,Guildford Flames,Nottingham Panthers,6:00 pm
+93,11/14/2018,Milton Keynes Lightning,Glasgow Clan,7:30 pm
+94,11/16/2018,Glasgow Clan,Sheffield Steelers,7:30 pm
+95,11/17/2018,Manchester Storm,Guildford Flames,7:00 pm
+96,11/17/2018,Cardiff Devils,Nottingham Panthers,7:00 pm
+97,11/17/2018,Coventry Blaze,Dundee Stars,7:00 pm
+98,11/17/2018,Glasgow Clan,Milton Keynes Lightning,7:00 pm
+99,11/17/2018,Fife Flyers,Sheffield Steelers,7:15 pm
+100,11/18/2018,Nottingham Panthers,Fife Flyers,4:00 pm
+101,11/18/2018,Dundee Stars,Cardiff Devils,5:00 pm
+102,11/18/2018,Milton Keynes Lightning,Coventry Blaze,5:15 pm
+103,11/18/2018,Guildford Flames,Manchester Storm,6:00 pm
+104,11/21/2018,Cardiff Devils,Fife Flyers,7:30 pm
+105,11/21/2018,Coventry Blaze,Guildford Flames,7:30 pm
+106,11/24/2018,Dundee Stars,Fife Flyers,7:00 pm
+107,11/24/2018,Milton Keynes Lightning,Nottingham Panthers,7:00 pm
+108,11/24/2018,Manchester Storm,Cardiff Devils,7:00 pm
+109,11/24/2018,Glasgow Clan,Guildford Flames,7:00 pm
+110,11/24/2018,Coventry Blaze,Belfast Giants,7:00 pm
+111,11/25/2018,Sheffield Steelers,Manchester Storm,4:00 pm
+112,11/25/2018,Guildford Flames,Belfast Giants,6:00 pm
+113,11/25/2018,Cardiff Devils,Milton Keynes Lightning,6:00 pm
+114,11/25/2018,Fife Flyers,Dundee Stars,6:30 pm
+115,11/28/2018,Nottingham Panthers,Milton Keynes Lightning,7:30 pm
+116,11/30/2018,Glasgow Clan,Coventry Blaze,7:30 pm
+117,12/01/2018,Guildford Flames,Nottingham Panthers,6:00 pm
+118,12/01/2018,Milton Keynes Lightning,Manchester Storm,7:00 pm
+119,12/01/2018,Dundee Stars,Coventry Blaze,7:00 pm
+120,12/01/2018,Sheffield Steelers,Belfast Giants,7:00 pm
+121,12/01/2018,Fife Flyers,Cardiff Devils,7:15 pm
+122,12/02/2018,Nottingham Panthers,Glasgow Clan,4:00 pm
+123,12/02/2018,Sheffield Steelers,Belfast Giants,4:00 pm
+124,12/02/2018,Coventry Blaze,Guildford Flames,5:15 pm
+125,12/02/2018,Manchester Storm,Fife Flyers,5:30 pm
+126,12/02/2018,Cardiff Devils,Dundee Stars,6:00 pm
+127,12/05/2018,Cardiff Devils,Guildford Flames,7:30 pm
+128,12/05/2018,Glasgow Clan,Sheffield Steelers,7:30 pm
+129,12/05/2018,Dundee Stars,Belfast Giants,7:30 pm
+130,12/08/2018,Guildford Flames,Belfast Giants,6:00 pm
+131,12/08/2018,Manchester Storm,Nottingham Panthers,7:00 pm
+132,12/08/2018,Dundee Stars,Milton Keynes Lightning,7:00 pm
+133,12/08/2018,Sheffield Steelers,Cardiff Devils,7:00 pm
+134,12/08/2018,Fife Flyers,Coventry Blaze,7:15 pm
+135,12/09/2018,Glasgow Clan,Manchester Storm,4:00 pm
+136,12/09/2018,Dundee Stars,Sheffield Steelers,5:00 pm
+137,12/09/2018,Coventry Blaze,Nottingham Panthers,5:15 pm
+138,12/09/2018,Milton Keynes Lightning,Fife Flyers,5:15 pm
+139,12/09/2018,Belfast Giants,Cardiff Devils,11:59 pm
+140,12/14/2018,Nottingham Panthers,Dundee Stars,7:30 pm
+141,12/14/2018,Cardiff Devils,Glasgow Clan,7:30 pm
+142,12/15/2018,Sheffield Steelers,Coventry Blaze,7:00 pm
+143,12/15/2018,Manchester Storm,Cardiff Devils,7:00 pm
+144,12/15/2018,Milton Keynes Lightning,Dundee Stars,7:00 pm
+145,12/15/2018,Glasgow Clan,Belfast Giants,7:00 pm
+146,12/15/2018,Fife Flyers,Guildford Flames,7:15 pm
+147,12/16/2018,Nottingham Panthers,Guildford Flames,4:00 pm
+148,12/16/2018,Coventry Blaze,Dundee Stars,5:15 pm
+149,12/16/2018,Manchester Storm,Belfast Giants,5:30 pm
+150,12/20/2018,Milton Keynes Lightning,Cardiff Devils,7:30 pm
+151,12/21/2018,Belfast Giants,Manchester Storm,7:00 pm
+152,12/22/2018,Belfast Giants,Manchester Storm,7:00 pm
+153,12/22/2018,Cardiff Devils,Dundee Stars,7:00 pm
+154,12/22/2018,Nottingham Panthers,Milton Keynes Lightning,7:00 pm
+155,12/22/2018,Sheffield Steelers,Guildford Flames,7:00 pm
+156,12/22/2018,Fife Flyers,Glasgow Clan,7:15 pm
+157,12/23/2018,Glasgow Clan,Sheffield Steelers,4:00 pm
+158,12/23/2018,Dundee Stars,Nottingham Panthers,5:00 pm
+159,12/23/2018,Coventry Blaze,Milton Keynes Lightning,5:15 pm
+160,12/23/2018,Guildford Flames,Cardiff Devils,6:00 pm
+161,12/26/2018,Nottingham Panthers,Sheffield Steelers,4:00 pm
+162,12/26/2018,Manchester Storm,Glasgow Clan,5:30 pm
+163,12/26/2018,Milton Keynes Lightning,Guildford Flames,6:00 pm
+164,12/26/2018,Coventry Blaze,Cardiff Devils,6:00 pm
+165,12/26/2018,Dundee Stars,Fife Flyers,7:30 pm
+166,12/27/2018,Guildford Flames,Milton Keynes Lightning,7:00 pm
+167,12/27/2018,Cardiff Devils,Coventry Blaze,7:00 pm
+168,12/27/2018,Glasgow Clan,Manchester Storm,7:30 pm
+169,12/27/2018,Sheffield Steelers,Nottingham Panthers,11:59 pm
+170,12/27/2018,Fife Flyers,Dundee Stars,11:59 pm
+171,12/28/2018,Belfast Giants,Milton Keynes Lightning,7:00 pm
+172,12/29/2018,Belfast Giants,Glasgow Clan,7:00 pm
+173,12/29/2018,Sheffield Steelers,Manchester Storm,7:00 pm
+174,12/29/2018,Coventry Blaze,Nottingham Panthers,7:00 pm
+175,12/30/2018,Belfast Giants,Dundee Stars,4:00 pm
+176,12/30/2018,Guildford Flames,Cardiff Devils,6:00 pm
+177,12/31/2018,Glasgow Clan,Fife Flyers,2:00 pm
+178,12/31/2018,Nottingham Panthers,Coventry Blaze,3:00 pm
+179,01/01/2019,Cardiff Devils,Guildford Flames,4:00 pm
+180,01/01/2019,Manchester Storm,Sheffield Steelers,5:30 pm
+181,01/02/2019,Dundee Stars,Glasgow Clan,7:30 pm
+182,01/02/2019,Nottingham Panthers,Guildford Flames,7:30 pm
+183,01/02/2019,Fife Flyers,Milton Keynes Lightning,11:59 pm
+184,01/03/2019,Dundee Stars,Milton Keynes Lightning,7:30 pm
+185,01/05/2019,Cardiff Devils,Manchester Storm,7:00 pm
+186,01/05/2019,Milton Keynes Lightning,Coventry Blaze,7:00 pm
+187,01/05/2019,Belfast Giants,Sheffield Steelers,7:00 pm
+188,01/05/2019,Glasgow Clan,Dundee Stars,7:00 pm
+189,01/05/2019,Nottingham Panthers,Fife Flyers,7:00 pm
+190,01/06/2019,Belfast Giants,Sheffield Steelers,4:00 pm
+191,01/06/2019,Coventry Blaze,Glasgow Clan,5:15 pm
+192,01/06/2019,Manchester Storm,Nottingham Panthers,5:30 pm
+193,01/06/2019,Guildford Flames,Milton Keynes Lightning,6:00 pm
+194,01/06/2019,Fife Flyers,Cardiff Devils,6:30 pm
+195,01/12/2019,Guildford Flames,Coventry Blaze,6:00 pm
+196,01/12/2019,Glasgow Clan,Cardiff Devils,7:00 pm
+197,01/12/2019,Nottingham Panthers,Manchester Storm,7:00 pm
+198,01/12/2019,Sheffield Steelers,Dundee Stars,7:00 pm
+199,01/12/2019,Milton Keynes Lightning,Fife Flyers,7:00 pm
+200,01/13/2019,Glasgow Clan,Milton Keynes Lightning,4:00 pm
+201,01/13/2019,Dundee Stars,Sheffield Steelers,5:00 pm
+202,01/13/2019,Coventry Blaze,Guildford Flames,5:15 pm
+203,01/13/2019,Manchester Storm,Fife Flyers,5:30 pm
+204,01/13/2019,Cardiff Devils,Nottingham Panthers,6:00 pm
+205,01/16/2019,Manchester Storm,Guildford Flames,7:30 pm
+206,01/18/2019,Dundee Stars,Nottingham Panthers,7:30 pm
+207,01/19/2019,Guildford Flames,Fife Flyers,6:00 pm
+208,01/19/2019,Coventry Blaze,Manchester Storm,7:00 pm
+209,01/19/2019,Cardiff Devils,Belfast Giants,7:00 pm
+210,01/19/2019,Glasgow Clan,Nottingham Panthers,7:00 pm
+211,01/19/2019,Milton Keynes Lightning,Sheffield Steelers,7:00 pm
+212,01/20/2019,Cardiff Devils,Belfast Giants,4:00 pm
+213,01/20/2019,Sheffield Steelers,Milton Keynes Lightning,4:00 pm
+214,01/20/2019,Dundee Stars,Guildford Flames,5:00 pm
+215,01/20/2019,Manchester Storm,Coventry Blaze,5:30 pm
+216,01/20/2019,Fife Flyers,Nottingham Panthers,6:30 pm
+217,01/24/2019,Milton Keynes Lightning,Glasgow Clan,7:30 pm
+218,01/25/2019,Belfast Giants,Fife Flyers,7:00 pm
+219,01/26/2019,Guildford Flames,Coventry Blaze,6:00 pm
+220,01/26/2019,Nottingham Panthers,Cardiff Devils,7:00 pm
+221,01/26/2019,Belfast Giants,Fife Flyers,7:00 pm
+222,01/26/2019,Dundee Stars,Manchester Storm,7:00 pm
+223,01/26/2019,Sheffield Steelers,Glasgow Clan,7:00 pm
+224,01/27/2019,Coventry Blaze,Dundee Stars,5:15 pm
+225,01/27/2019,Milton Keynes Lightning,Belfast Giants,5:15 pm
+226,01/27/2019,Manchester Storm,Sheffield Steelers,5:30 pm
+227,01/27/2019,Glasgow Clan,Guildford Flames,6:00 pm
+228,01/27/2019,Fife Flyers,Cardiff Devils,6:30 pm
+229,01/30/2019,Guildford Flames,Sheffield Steelers,7:30 pm
+230,Feb/01/2019,Glasgow Clan,Fife Flyers,7:30 pm
+231,Feb/02/2019,Nottingham Panthers,Milton Keynes Lightning,7:00 pm
+232,Feb/02/2019,Sheffield Steelers,Guildford Flames,7:00 pm
+233,Feb/02/2019,Belfast Giants,Coventry Blaze,7:00 pm
+234,Feb/02/2019,Manchester Storm,Cardiff Devils,7:00 pm
+235,Feb/02/2019,Fife Flyers,Glasgow Clan,7:15 pm
+236,Feb/03/2019,Belfast Giants,Nottingham Panthers,4:00 pm
+237,Feb/03/2019,Dundee Stars,Guildford Flames,5:00 pm
+238,Feb/03/2019,Coventry Blaze,Manchester Storm,5:15 pm
+239,Feb/03/2019,Milton Keynes Lightning,Glasgow Clan,5:15 pm
+240,Feb/03/2019,Cardiff Devils,Sheffield Steelers,6:00 pm
+241,Feb/08/2019,Belfast Giants,Guildford Flames,7:00 pm
+242,Feb/09/2019,Glasgow Clan,Manchester Storm,7:00 pm
+243,Feb/09/2019,Sheffield Steelers,Nottingham Panthers,7:00 pm
+244,Feb/09/2019,Milton Keynes Lightning,Dundee Stars,7:00 pm
+245,Feb/09/2019,Cardiff Devils,Coventry Blaze,7:00 pm
+246,Feb/09/2019,Belfast Giants,Guildford Flames,7:00 pm
+247,Feb/10/2019,Nottingham Panthers,Belfast Giants,4:00 pm
+248,Feb/10/2019,Dundee Stars,Glasgow Clan,5:00 pm
+249,Feb/10/2019,Coventry Blaze,Sheffield Steelers,5:15 pm
+250,Feb/10/2019,Guildford Flames,Cardiff Devils,6:00 pm
+251,Feb/10/2019,Fife Flyers,Manchester Storm,6:30 pm
+252,Feb/12/2019,Glasgow Clan,Dundee Stars,7:30 pm
+253,Feb/16/2019,Cardiff Devils,Milton Keynes Lightning,7:00 pm
+254,Feb/16/2019,Belfast Giants,Glasgow Clan,7:00 pm
+255,Feb/16/2019,Manchester Storm,Guildford Flames,7:00 pm
+256,Feb/16/2019,Nottingham Panthers,Sheffield Steelers,7:00 pm
+257,Feb/16/2019,Fife Flyers,Coventry Blaze,7:15 pm
+258,Feb/17/2019,Glasgow Clan,Belfast Giants,4:00 pm
+259,Feb/17/2019,Dundee Stars,Fife Flyers,5:00 pm
+260,Feb/17/2019,Milton Keynes Lightning,Cardiff Devils,5:15 pm
+261,Feb/17/2019,Coventry Blaze,Sheffield Steelers,5:15 pm
+262,Feb/17/2019,Guildford Flames,Manchester Storm,6:00 pm
+263,Feb/20/2019,Manchester Storm,Dundee Stars,7:30 pm
+264,Feb/20/2019,Guildford Flames,Milton Keynes Lightning,7:30 pm
+265,Feb/20/2019,Sheffield Steelers,Glasgow Clan,7:30 pm
+266,Feb/20/2019,Nottingham Panthers,Coventry Blaze,7:30 pm
+267,Feb/22/2019,Belfast Giants,Cardiff Devils,7:00 pm
+268,Feb/23/2019,Belfast Giants,Cardiff Devils,7:00 pm
+269,Feb/23/2019,Milton Keynes Lightning,Manchester Storm,7:00 pm
+270,Feb/23/2019,Nottingham Panthers,Glasgow Clan,7:00 pm
+271,Feb/23/2019,Sheffield Steelers,Coventry Blaze,7:00 pm
+272,Feb/23/2019,Fife Flyers,Dundee Stars,7:15 pm
+273,Feb/24/2019,Coventry Blaze,Fife Flyers,5:15 pm
+274,Feb/24/2019,Manchester Storm,Sheffield Steelers,5:30 pm
+275,Feb/24/2019,Guildford Flames,Glasgow Clan,6:00 pm
+276,Feb/27/2019,Fife Flyers,Belfast Giants,7:30 pm
+277,03/01/2019,Fife Flyers,Milton Keynes Lightning,7:30 pm
+278,03/02/2019,Glasgow Clan,Guildford Flames,7:00 pm
+279,03/02/2019,Sheffield Steelers,Belfast Giants,7:00 pm
+280,03/02/2019,Manchester Storm,Dundee Stars,7:00 pm
+281,03/02/2019,Milton Keynes Lightning,Nottingham Panthers,7:00 pm
+282,03/02/2019,Coventry Blaze,Cardiff Devils,7:00 pm
+283,03/03/2019,Nottingham Panthers,Fife Flyers,4:00 pm
+284,03/03/2019,Belfast Giants,Manchester Storm,4:00 pm
+285,03/03/2019,Cardiff Devils,Sheffield Steelers,4:00 pm
+286,03/03/2019,Dundee Stars,Coventry Blaze,5:00 pm
+287,03/03/2019,Guildford Flames,Glasgow Clan,6:00 pm
+288,03/08/2019,Belfast Giants,Glasgow Clan,7:00 pm
+289,03/08/2019,Cardiff Devils,Guildford Flames,7:30 pm
+290,03/09/2019,Milton Keynes Lightning,Coventry Blaze,7:00 pm
+291,03/09/2019,Sheffield Steelers,Fife Flyers,7:00 pm
+292,03/09/2019,Nottingham Panthers,Dundee Stars,7:00 pm
+293,03/10/2019,Dundee Stars,Manchester Storm,5:00 pm
+294,03/10/2019,Coventry Blaze,Milton Keynes Lightning,5:15 pm
+295,03/10/2019,Fife Flyers,Sheffield Steelers,6:30 pm
+296,03/15/2019,Belfast Giants,Coventry Blaze,7:00 pm
+297,03/15/2019,Glasgow Clan,Dundee Stars,7:30 pm
+298,03/16/2019,Guildford Flames,Dundee Stars,6:00 pm
+299,03/16/2019,Nottingham Panthers,Manchester Storm,7:00 pm
+300,03/16/2019,Belfast Giants,Coventry Blaze,7:00 pm
+301,03/16/2019,Milton Keynes Lightning,Fife Flyers,7:00 pm
+302,03/16/2019,Sheffield Steelers,Cardiff Devils,7:00 pm
+303,03/17/2019,Nottingham Panthers,Dundee Stars,4:00 pm
+304,03/17/2019,Coventry Blaze,Fife Flyers,5:15 pm
+305,03/17/2019,Manchester Storm,Milton Keynes Lightning,5:30 pm
+306,03/17/2019,Cardiff Devils,Glasgow Clan,6:00 pm
+307,03/20/2019,Glasgow Clan,Cardiff Devils,7:30 pm
+308,03/20/2019,Dundee Stars,Coventry Blaze,7:30 pm
+309,03/22/2019,Manchester Storm,Belfast Giants,7:30 pm
+310,03/22/2019,Milton Keynes Lightning,Guildford Flames,7:30 pm
+311,03/23/2019,Glasgow Clan,Nottingham Panthers,7:00 pm
+312,03/23/2019,Sheffield Steelers,Milton Keynes Lightning,7:00 pm
+313,03/23/2019,Cardiff Devils,Manchester Storm,7:00 pm
+314,03/23/2019,Fife Flyers,Guildford Flames,7:15 pm
+315,03/24/2019,Belfast Giants,Sheffield Steelers,4:00 pm
+316,03/24/2019,Dundee Stars,Cardiff Devils,5:00 pm
+317,03/24/2019,Guildford Flames,Coventry Blaze,6:00 pm
+318,03/24/2019,Fife Flyers,Nottingham Panthers,6:30 pm
+319,03/27/2019,Coventry Blaze,Belfast Giants,7:30 pm
+320,03/29/2019,Belfast Giants,Fife Flyers,7:00 pm
+321,03/29/2019,Milton Keynes Lightning,Manchester Storm,7:30 pm
+322,03/30/2019,Nottingham Panthers,Guildford Flames,7:00 pm
+323,03/30/2019,Manchester Storm,Coventry Blaze,7:00 pm
+324,03/30/2019,Cardiff Devils,Milton Keynes Lightning,7:00 pm
+325,03/30/2019,Glasgow Clan,Fife Flyers,7:00 pm
+326,03/30/2019,Belfast Giants,Dundee Stars,7:00 pm
+327,03/31/2019,Milton Keynes Lightning,Sheffield Steelers,5:15 pm
+328,03/31/2019,Coventry Blaze,Cardiff Devils,5:15 pm
+329,03/31/2019,Guildford Flames,Dundee Stars,6:00 pm
+330,03/31/2019,Fife Flyers,Glasgow Clan,6:30 pm
